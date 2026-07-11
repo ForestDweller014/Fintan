@@ -25,5 +25,9 @@
   "23": "graphify reference: transcribe video and audio",
   "24": "AGENTS.md",
   "25": "extraction-spec.md",
-  "26": "Atomic Git Commit Workflow"
+  "26": "Atomic Git Commit Workflow",
+  "27": "main.py",
+  "28": "cmd_trading",
+  "29": "install_graphify_auto_publish.py",
+  "30": "graphify_auto_publish.py"
 }

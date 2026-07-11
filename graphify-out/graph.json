@@ -4,14 +4,934 @@
   "graph": {},
   "nodes": [
     {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme",
+      "community": 27,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Fintan",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme_fintan",
+      "community": 27,
+      "norm_label": "fintan"
+    },
+    {
+      "label": "Tech Stack",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "readme_tech_stack",
+      "community": 27,
+      "norm_label": "tech stack"
+    },
+    {
+      "label": "CLI Usage",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "readme_cli_usage",
+      "community": 27,
+      "norm_label": "cli usage"
+    },
+    {
+      "label": "Automatically publish Graphify snapshots",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L78",
+      "_origin": "ast",
+      "id": "readme_automatically_publish_graphify_snapshots",
+      "community": 27,
+      "norm_label": "automatically publish graphify snapshots"
+    },
+    {
+      "label": "Overview",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L93",
+      "_origin": "ast",
+      "id": "readme_overview",
+      "community": 27,
+      "norm_label": "overview"
+    },
+    {
+      "label": "Configuration",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L105",
+      "_origin": "ast",
+      "id": "readme_configuration",
+      "community": 27,
+      "norm_label": "configuration"
+    },
+    {
+      "label": "API Capabilities",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L138",
+      "_origin": "ast",
+      "id": "readme_api_capabilities",
+      "community": 27,
+      "norm_label": "api capabilities"
+    },
+    {
+      "label": "Market Data (`brokerage_api/market_data/stock_api.py`)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L142",
+      "_origin": "ast",
+      "id": "readme_market_data_brokerage_api_market_data_stock_api_py",
+      "community": 27,
+      "norm_label": "market data (`brokerage_api/market_data/stock_api.py`)"
+    },
+    {
+      "label": "Options Data (`brokerage_api/market_data/option_api.py`)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L173",
+      "_origin": "ast",
+      "id": "readme_options_data_brokerage_api_market_data_option_api_py",
+      "community": 27,
+      "norm_label": "options data (`brokerage_api/market_data/option_api.py`)"
+    },
+    {
+      "label": "Trading \u2014 Orders (`brokerage_api/trading/orders_api.py`)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L177",
+      "_origin": "ast",
+      "id": "readme_trading_orders_brokerage_api_trading_orders_api_py",
+      "community": 27,
+      "norm_label": "trading \u2014 orders (`brokerage_api/trading/orders_api.py`)"
+    },
+    {
+      "label": "Trading \u2014 Positions (`brokerage_api/trading/positions_api.py`)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L203",
+      "_origin": "ast",
+      "id": "readme_trading_positions_brokerage_api_trading_positions_api_py",
+      "community": 27,
+      "norm_label": "trading \u2014 positions (`brokerage_api/trading/positions_api.py`)"
+    },
+    {
+      "label": "Trading \u2014 Assets (`brokerage_api/trading/assets_api.py`)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L213",
+      "_origin": "ast",
+      "id": "readme_trading_assets_brokerage_api_trading_assets_api_py",
+      "community": 27,
+      "norm_label": "trading \u2014 assets (`brokerage_api/trading/assets_api.py`)"
+    },
+    {
+      "label": "Trading \u2014 Account (`brokerage_api/trading/accounts_api.py`)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L222",
+      "_origin": "ast",
+      "id": "readme_trading_account_brokerage_api_trading_accounts_api_py",
+      "community": 27,
+      "norm_label": "trading \u2014 account (`brokerage_api/trading/accounts_api.py`)"
+    },
+    {
+      "label": "Technical Analysis Capabilities",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L230",
+      "_origin": "ast",
+      "id": "readme_technical_analysis_capabilities",
+      "community": 27,
+      "norm_label": "technical analysis capabilities"
+    },
+    {
+      "label": "RSI \u2014 Relative Strength Index (`timeseries_rsi.py`)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L234",
+      "_origin": "ast",
+      "id": "readme_rsi_relative_strength_index_timeseries_rsi_py",
+      "community": 27,
+      "norm_label": "rsi \u2014 relative strength index (`timeseries_rsi.py`)"
+    },
+    {
+      "label": "MACD \u2014 Moving Average Convergence Divergence (`timeseries_macd.py`)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L237",
+      "_origin": "ast",
+      "id": "readme_macd_moving_average_convergence_divergence_timeseries_macd_py",
+      "community": 27,
+      "norm_label": "macd \u2014 moving average convergence divergence (`timeseries_macd.py`)"
+    },
+    {
+      "label": "ATR \u2014 Average True Range (`timeseries_atr.py`)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L240",
+      "_origin": "ast",
+      "id": "readme_atr_average_true_range_timeseries_atr_py",
+      "community": 27,
+      "norm_label": "atr \u2014 average true range (`timeseries_atr.py`)"
+    },
+    {
+      "label": "OBV \u2014 On-Balance Volume (`timeseries_obv.py`)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L243",
+      "_origin": "ast",
+      "id": "readme_obv_on_balance_volume_timeseries_obv_py",
+      "community": 27,
+      "norm_label": "obv \u2014 on-balance volume (`timeseries_obv.py`)"
+    },
+    {
+      "label": "Bollinger Bands (`timeseries_bollinger.py`)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L246",
+      "_origin": "ast",
+      "id": "readme_bollinger_bands_timeseries_bollinger_py",
+      "community": 27,
+      "norm_label": "bollinger bands (`timeseries_bollinger.py`)"
+    },
+    {
+      "label": "Fibonacci Retracement (`timeseries_fibonacci.py`)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L251",
+      "_origin": "ast",
+      "id": "readme_fibonacci_retracement_timeseries_fibonacci_py",
+      "community": 27,
+      "norm_label": "fibonacci retracement (`timeseries_fibonacci.py`)"
+    },
+    {
+      "label": "Training Data Schema",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L256",
+      "_origin": "ast",
+      "id": "readme_training_data_schema",
+      "community": 27,
+      "norm_label": "training data schema"
+    },
+    {
+      "label": "Module Reference",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L293",
+      "_origin": "ast",
+      "id": "readme_module_reference",
+      "community": 27,
+      "norm_label": "module reference"
+    },
+    {
+      "label": "Equity Universe",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L311",
+      "_origin": "ast",
+      "id": "readme_equity_universe",
+      "community": 27,
+      "norm_label": "equity universe"
+    },
+    {
+      "label": "Requirements",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L317",
+      "_origin": "ast",
+      "id": "readme_requirements",
+      "community": 27,
+      "norm_label": "requirements"
+    },
+    {
+      "label": "Testing",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L328",
+      "_origin": "ast",
+      "id": "readme_testing",
+      "community": 27,
+      "norm_label": "testing"
+    },
+    {
+      "label": "graphify_auto_publish.py",
+      "file_type": "code",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "scripts_graphify_auto_publish",
+      "community": 30,
+      "norm_label": "graphify_auto_publish.py"
+    },
+    {
+      "label": "PublishError",
+      "file_type": "code",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "scripts_graphify_auto_publish_publisherror",
+      "community": 30,
+      "norm_label": "publisherror"
+    },
+    {
+      "label": "RuntimeError",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "scripts_graphify_auto_publish_py_runtimeerror",
+      "community": 30,
+      "norm_label": "runtimeerror"
+    },
+    {
+      "label": "_git()",
+      "file_type": "code",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "scripts_graphify_auto_publish_git",
+      "community": 30,
+      "norm_label": "_git()"
+    },
+    {
+      "label": "Path",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "scripts_graphify_auto_publish_py_path",
+      "community": 30,
+      "norm_label": "path"
+    },
+    {
+      "label": "CompletedProcess",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "scripts_graphify_auto_publish_py_completedprocess",
+      "community": 30,
+      "norm_label": "completedprocess"
+    },
+    {
+      "label": "_git_paths()",
+      "file_type": "code",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "scripts_graphify_auto_publish_git_paths",
+      "community": 30,
+      "norm_label": "_git_paths()"
+    },
+    {
+      "label": "repository_root()",
+      "file_type": "code",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "scripts_graphify_auto_publish_repository_root",
+      "community": 30,
+      "norm_label": "repository_root()"
+    },
+    {
+      "label": "is_durable_graphify_path()",
+      "file_type": "code",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L73",
+      "_origin": "ast",
+      "id": "scripts_graphify_auto_publish_is_durable_graphify_path",
+      "community": 30,
+      "norm_label": "is_durable_graphify_path()"
+    },
+    {
+      "label": "publisher_lock()",
+      "file_type": "code",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L98",
+      "_origin": "ast",
+      "id": "scripts_graphify_auto_publish_publisher_lock",
+      "community": 30,
+      "norm_label": "publisher_lock()"
+    },
+    {
+      "label": "_require_branch_and_upstream()",
+      "file_type": "code",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L113",
+      "_origin": "ast",
+      "id": "scripts_graphify_auto_publish_require_branch_and_upstream",
+      "community": 30,
+      "norm_label": "_require_branch_and_upstream()"
+    },
+    {
+      "label": "_durable_changes()",
+      "file_type": "code",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L132",
+      "_origin": "ast",
+      "id": "scripts_graphify_auto_publish_durable_changes",
+      "community": 30,
+      "norm_label": "_durable_changes()"
+    },
+    {
+      "label": "publish()",
+      "file_type": "code",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L146",
+      "_origin": "ast",
+      "id": "scripts_graphify_auto_publish_publish",
+      "community": 30,
+      "norm_label": "publish()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L187",
+      "_origin": "ast",
+      "id": "scripts_graphify_auto_publish_main",
+      "community": 30,
+      "norm_label": "main()"
+    },
+    {
+      "label": "A safe publishing precondition was not met.",
+      "file_type": "rationale",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "scripts_graphify_auto_publish_rationale_37",
+      "community": 30,
+      "norm_label": "a safe publishing precondition was not met."
+    },
+    {
+      "label": "install_graphify_auto_publish.py",
+      "file_type": "code",
+      "source_file": "scripts/install_graphify_auto_publish.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "scripts_install_graphify_auto_publish",
+      "community": 29,
+      "norm_label": "install_graphify_auto_publish.py"
+    },
+    {
+      "label": "InstallError",
+      "file_type": "code",
+      "source_file": "scripts/install_graphify_auto_publish.py",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "scripts_install_graphify_auto_publish_installerror",
+      "community": 29,
+      "norm_label": "installerror"
+    },
+    {
+      "label": "RuntimeError",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "scripts_install_graphify_auto_publish_py_runtimeerror",
+      "community": 29,
+      "norm_label": "runtimeerror"
+    },
+    {
+      "label": "repository_root()",
+      "file_type": "code",
+      "source_file": "scripts/install_graphify_auto_publish.py",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "scripts_install_graphify_auto_publish_repository_root",
+      "community": 29,
+      "norm_label": "repository_root()"
+    },
+    {
+      "label": "Path",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "scripts_install_graphify_auto_publish_py_path",
+      "community": 29,
+      "norm_label": "path"
+    },
+    {
+      "label": "hook_path()",
+      "file_type": "code",
+      "source_file": "scripts/install_graphify_auto_publish.py",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "scripts_install_graphify_auto_publish_hook_path",
+      "community": 29,
+      "norm_label": "hook_path()"
+    },
+    {
+      "label": "patch_hook()",
+      "file_type": "code",
+      "source_file": "scripts/install_graphify_auto_publish.py",
+      "source_location": "L60",
+      "_origin": "ast",
+      "id": "scripts_install_graphify_auto_publish_patch_hook",
+      "community": 29,
+      "norm_label": "patch_hook()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/install_graphify_auto_publish.py",
+      "source_location": "L95",
+      "_origin": "ast",
+      "id": "scripts_install_graphify_auto_publish_main",
+      "community": 29,
+      "norm_label": "main()"
+    },
+    {
+      "label": "The hook is absent or does not match the supported Graphify layout.",
+      "file_type": "rationale",
+      "source_file": "scripts/install_graphify_auto_publish.py",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "scripts_install_graphify_auto_publish_rationale_33",
+      "community": 29,
+      "norm_label": "the hook is absent or does not match the supported graphify layout."
+    },
+    {
+      "label": "test_graphify_auto_publish.py",
+      "file_type": "code",
+      "source_file": "tests/test_graphify_auto_publish.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "tests_test_graphify_auto_publish",
+      "community": 29,
+      "norm_label": "test_graphify_auto_publish.py"
+    },
+    {
+      "label": "git()",
+      "file_type": "code",
+      "source_file": "tests/test_graphify_auto_publish.py",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "tests_test_graphify_auto_publish_git",
+      "community": 29,
+      "norm_label": "git()"
+    },
+    {
+      "label": "Path",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "tests_test_graphify_auto_publish_py_path",
+      "community": 29,
+      "norm_label": "path"
+    },
+    {
+      "label": "CompletedProcess",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "tests_test_graphify_auto_publish_py_completedprocess",
+      "community": 29,
+      "norm_label": "completedprocess"
+    },
+    {
+      "label": "PublisherIntegrationTest",
+      "file_type": "code",
+      "source_file": "tests/test_graphify_auto_publish.py",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "tests_test_graphify_auto_publish_publisherintegrationtest",
+      "community": 29,
+      "norm_label": "publisherintegrationtest"
+    },
+    {
+      "label": ".setUp()",
+      "file_type": "code",
+      "source_file": "tests/test_graphify_auto_publish.py",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "tests_test_graphify_auto_publish_publisherintegrationtest_setup",
+      "community": 29,
+      "norm_label": ".setup()"
+    },
+    {
+      "label": ".run_publisher()",
+      "file_type": "code",
+      "source_file": "tests/test_graphify_auto_publish.py",
+      "source_location": "L58",
+      "_origin": "ast",
+      "id": "tests_test_graphify_auto_publish_publisherintegrationtest_run_publisher",
+      "community": 29,
+      "norm_label": ".run_publisher()"
+    },
+    {
+      "label": ".test_commits_and_pushes_only_durable_outputs()",
+      "file_type": "code",
+      "source_file": "tests/test_graphify_auto_publish.py",
+      "source_location": "L68",
+      "_origin": "ast",
+      "id": "tests_test_graphify_auto_publish_publisherintegrationtest_test_commits_and_pushes_only_durable_outputs",
+      "community": 29,
+      "norm_label": ".test_commits_and_pushes_only_durable_outputs()"
+    },
+    {
+      "label": ".test_refuses_manually_staged_graphify_files()",
+      "file_type": "code",
+      "source_file": "tests/test_graphify_auto_publish.py",
+      "source_location": "L123",
+      "_origin": "ast",
+      "id": "tests_test_graphify_auto_publish_publisherintegrationtest_test_refuses_manually_staged_graphify_files",
+      "community": 29,
+      "norm_label": ".test_refuses_manually_staged_graphify_files()"
+    },
+    {
+      "label": "HookInstallerTest",
+      "file_type": "code",
+      "source_file": "tests/test_graphify_auto_publish.py",
+      "source_location": "L135",
+      "_origin": "ast",
+      "id": "tests_test_graphify_auto_publish_hookinstallertest",
+      "community": 29,
+      "norm_label": "hookinstallertest"
+    },
+    {
+      "label": ".test_patches_after_rebuild_and_is_idempotent()",
+      "file_type": "code",
+      "source_file": "tests/test_graphify_auto_publish.py",
+      "source_location": "L146",
+      "_origin": "ast",
+      "id": "tests_test_graphify_auto_publish_hookinstallertest_test_patches_after_rebuild_and_is_idempotent",
+      "community": 29,
+      "norm_label": ".test_patches_after_rebuild_and_is_idempotent()"
+    },
+    {
+      "label": "SKILL.md",
+      "file_type": "document",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "skill.md",
+      "id": "agents_skills_continuous_integration_skill"
+    },
+    {
+      "label": "Continuous Integration Engineering",
+      "file_type": "document",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "continuous integration engineering",
+      "id": "agents_skills_continuous_integration_skill_continuous_integration_engineering"
+    },
+    {
+      "label": "Operating boundaries",
+      "file_type": "document",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "operating boundaries",
+      "id": "agents_skills_continuous_integration_skill_operating_boundaries"
+    },
+    {
+      "label": "Phase 1: Orient to the repository",
+      "file_type": "document",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "phase 1: orient to the repository",
+      "id": "agents_skills_continuous_integration_skill_phase_1_orient_to_the_repository"
+    },
+    {
+      "label": "Phase 2: Define the integration contract",
+      "file_type": "document",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L56",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "phase 2: define the integration contract",
+      "id": "agents_skills_continuous_integration_skill_phase_2_define_the_integration_contract"
+    },
+    {
+      "label": "Phase 3: Design the pipeline",
+      "file_type": "document",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L85",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "phase 3: design the pipeline",
+      "id": "agents_skills_continuous_integration_skill_phase_3_design_the_pipeline"
+    },
+    {
+      "label": "Fail fast",
+      "file_type": "document",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L87",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "fail fast",
+      "id": "agents_skills_continuous_integration_skill_fail_fast"
+    },
+    {
+      "label": "Keep jobs cohesive",
+      "file_type": "document",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L103",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "keep jobs cohesive",
+      "id": "agents_skills_continuous_integration_skill_keep_jobs_cohesive"
+    },
+    {
+      "label": "Reproducibility",
+      "file_type": "document",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L118",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "reproducibility",
+      "id": "agents_skills_continuous_integration_skill_reproducibility"
+    },
+    {
+      "label": "Change-aware execution",
+      "file_type": "document",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L130",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "change-aware execution",
+      "id": "agents_skills_continuous_integration_skill_change_aware_execution"
+    },
+    {
+      "label": "Caching",
+      "file_type": "document",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L142",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "caching",
+      "id": "agents_skills_continuous_integration_skill_caching"
+    },
+    {
+      "label": "Test strategy",
+      "file_type": "document",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L156",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "test strategy",
+      "id": "agents_skills_continuous_integration_skill_test_strategy"
+    },
+    {
+      "label": "Unit tests",
+      "file_type": "document",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L158",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "unit tests",
+      "id": "agents_skills_continuous_integration_skill_unit_tests"
+    },
+    {
+      "label": "Integration tests",
+      "file_type": "document",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L164",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "integration tests",
+      "id": "agents_skills_continuous_integration_skill_integration_tests"
+    },
+    {
+      "label": "End-to-end tests",
+      "file_type": "document",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L172",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "end-to-end tests",
+      "id": "agents_skills_continuous_integration_skill_end_to_end_tests"
+    },
+    {
+      "label": "Flaky tests",
+      "file_type": "document",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L178",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "flaky tests",
+      "id": "agents_skills_continuous_integration_skill_flaky_tests"
+    },
+    {
+      "label": "Coverage",
+      "file_type": "document",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L185",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "coverage",
+      "id": "agents_skills_continuous_integration_skill_coverage"
+    },
+    {
+      "label": "Static quality checks",
+      "file_type": "document",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L192",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "static quality checks",
+      "id": "agents_skills_continuous_integration_skill_static_quality_checks"
+    },
+    {
+      "label": "Security",
+      "file_type": "document",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L211",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "security",
+      "id": "agents_skills_continuous_integration_skill_security"
+    },
+    {
+      "label": "Build and artifact handling",
+      "file_type": "document",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L232",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "build and artifact handling",
+      "id": "agents_skills_continuous_integration_skill_build_and_artifact_handling"
+    },
+    {
+      "label": "Matrices and platform coverage",
+      "file_type": "document",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L246",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "matrices and platform coverage",
+      "id": "agents_skills_continuous_integration_skill_matrices_and_platform_coverage"
+    },
+    {
+      "label": "Concurrency and cancellation",
+      "file_type": "document",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L260",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "concurrency and cancellation",
+      "id": "agents_skills_continuous_integration_skill_concurrency_and_cancellation"
+    },
+    {
+      "label": "Diagnostics and developer experience",
+      "file_type": "document",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L269",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "diagnostics and developer experience",
+      "id": "agents_skills_continuous_integration_skill_diagnostics_and_developer_experience"
+    },
+    {
+      "label": "Database and contract safety",
+      "file_type": "document",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L289",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "database and contract safety",
+      "id": "agents_skills_continuous_integration_skill_database_and_contract_safety"
+    },
+    {
+      "label": "Performance checks",
+      "file_type": "document",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L304",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "performance checks",
+      "id": "agents_skills_continuous_integration_skill_performance_checks"
+    },
+    {
+      "label": "Workflow implementation standards",
+      "file_type": "document",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L315",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "workflow implementation standards",
+      "id": "agents_skills_continuous_integration_skill_workflow_implementation_standards"
+    },
+    {
+      "label": "Modifying an existing pipeline",
+      "file_type": "document",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L339",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "modifying an existing pipeline",
+      "id": "agents_skills_continuous_integration_skill_modifying_an_existing_pipeline"
+    },
+    {
+      "label": "Debugging CI failures",
+      "file_type": "document",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L353",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "debugging ci failures",
+      "id": "agents_skills_continuous_integration_skill_debugging_ci_failures"
+    },
+    {
+      "label": "Validation before completion",
+      "file_type": "document",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L378",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "validation before completion",
+      "id": "agents_skills_continuous_integration_skill_validation_before_completion"
+    },
+    {
+      "label": "Completion report",
+      "file_type": "document",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L393",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "completion report",
+      "id": "agents_skills_continuous_integration_skill_completion_report"
+    },
+    {
+      "label": "Definition of done",
+      "file_type": "document",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L410",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "definition of done",
+      "id": "agents_skills_continuous_integration_skill_definition_of_done"
+    },
+    {
       "label": "SKILL.md",
       "file_type": "document",
       "source_file": ".agents/skills/atomic-git-commits/SKILL.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "agents_skills_atomic_git_commits_skill",
       "community": 26,
-      "norm_label": "skill.md"
+      "norm_label": "skill.md",
+      "id": "agents_skills_atomic_git_commits_skill"
     },
     {
       "label": "Atomic Git Commit Workflow",
@@ -19,9 +939,9 @@
       "source_file": ".agents/skills/atomic-git-commits/SKILL.md",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "agents_skills_atomic_git_commits_skill_atomic_git_commit_workflow",
       "community": 26,
-      "norm_label": "atomic git commit workflow"
+      "norm_label": "atomic git commit workflow",
+      "id": "agents_skills_atomic_git_commits_skill_atomic_git_commit_workflow"
     },
     {
       "label": "Scope",
@@ -29,9 +949,9 @@
       "source_file": ".agents/skills/atomic-git-commits/SKILL.md",
       "source_location": "L10",
       "_origin": "ast",
-      "id": "agents_skills_atomic_git_commits_skill_scope",
       "community": 26,
-      "norm_label": "scope"
+      "norm_label": "scope",
+      "id": "agents_skills_atomic_git_commits_skill_scope"
     },
     {
       "label": "Commit strategy",
@@ -39,9 +959,9 @@
       "source_file": ".agents/skills/atomic-git-commits/SKILL.md",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "agents_skills_atomic_git_commits_skill_commit_strategy",
       "community": 26,
-      "norm_label": "commit strategy"
+      "norm_label": "commit strategy",
+      "id": "agents_skills_atomic_git_commits_skill_commit_strategy"
     },
     {
       "label": "Commit messages",
@@ -49,9 +969,9 @@
       "source_file": ".agents/skills/atomic-git-commits/SKILL.md",
       "source_location": "L46",
       "_origin": "ast",
-      "id": "agents_skills_atomic_git_commits_skill_commit_messages",
       "community": 26,
-      "norm_label": "commit messages"
+      "norm_label": "commit messages",
+      "id": "agents_skills_atomic_git_commits_skill_commit_messages"
     },
     {
       "label": "SKILL.md",
@@ -899,7 +1819,7 @@
       "source_file": "brokerage_api/trading/accounts_api.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 3,
+      "community": 28,
       "norm_label": "accounts_api.py",
       "community_name": "Community 8",
       "id": "brokerage_api_trading_accounts_api"
@@ -910,7 +1830,7 @@
       "source_file": "brokerage_api/trading/accounts_api.py",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 3,
+      "community": 28,
       "norm_label": "get_account()",
       "community_name": "Community 1",
       "id": "brokerage_api_trading_accounts_api_get_account"
@@ -921,7 +1841,7 @@
       "source_file": "brokerage_api/trading/assets_api.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 3,
+      "community": 28,
       "norm_label": "assets_api.py",
       "community_name": "Community 1",
       "id": "brokerage_api_trading_assets_api"
@@ -932,7 +1852,7 @@
       "source_file": "brokerage_api/trading/assets_api.py",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 3,
+      "community": 28,
       "norm_label": "get_assets()",
       "community_name": "Community 1",
       "id": "brokerage_api_trading_assets_api_get_assets"
@@ -954,7 +1874,7 @@
       "source_file": "brokerage_api/trading/assets_api.py",
       "source_location": "L29",
       "_origin": "ast",
-      "community": 3,
+      "community": 28,
       "norm_label": "get_options()",
       "community_name": "Community 1",
       "id": "brokerage_api_trading_assets_api_get_options"
@@ -965,7 +1885,7 @@
       "source_file": "brokerage_api/trading/assets_api.py",
       "source_location": "L41",
       "_origin": "ast",
-      "community": 3,
+      "community": 28,
       "norm_label": "get_option()",
       "community_name": "Community 1",
       "id": "brokerage_api_trading_assets_api_get_option"
@@ -1141,7 +2061,7 @@
       "source_file": "brokerage_api/trading/orders_api.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 3,
+      "community": 28,
       "norm_label": "orders_api.py",
       "community_name": "Community 1",
       "id": "brokerage_api_trading_orders_api"
@@ -1152,7 +2072,7 @@
       "source_file": "brokerage_api/trading/orders_api.py",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 3,
+      "community": 28,
       "norm_label": "get_orders()",
       "community_name": "Community 1",
       "id": "brokerage_api_trading_orders_api_get_orders"
@@ -1163,7 +2083,7 @@
       "source_file": "brokerage_api/trading/orders_api.py",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 3,
+      "community": 28,
       "norm_label": "get_order()",
       "community_name": "Community 1",
       "id": "brokerage_api_trading_orders_api_get_order"
@@ -1174,7 +2094,7 @@
       "source_file": "brokerage_api/trading/orders_api.py",
       "source_location": "L29",
       "_origin": "ast",
-      "community": 3,
+      "community": 28,
       "norm_label": "place_order()",
       "community_name": "Community 1",
       "id": "brokerage_api_trading_orders_api_place_order"
@@ -1185,7 +2105,7 @@
       "source_file": "brokerage_api/trading/orders_api.py",
       "source_location": "L42",
       "_origin": "ast",
-      "community": 3,
+      "community": 28,
       "norm_label": "cancel_all_orders()",
       "community_name": "Community 1",
       "id": "brokerage_api_trading_orders_api_cancel_all_orders"
@@ -1196,7 +2116,7 @@
       "source_file": "brokerage_api/trading/orders_api.py",
       "source_location": "L54",
       "_origin": "ast",
-      "community": 3,
+      "community": 28,
       "norm_label": "cancel_order()",
       "community_name": "Community 1",
       "id": "brokerage_api_trading_orders_api_cancel_order"
@@ -1207,7 +2127,7 @@
       "source_file": "brokerage_api/trading/orders_api.py",
       "source_location": "L66",
       "_origin": "ast",
-      "community": 3,
+      "community": 28,
       "norm_label": "update_order()",
       "community_name": "Community 1",
       "id": "brokerage_api_trading_orders_api_update_order"
@@ -1218,7 +2138,7 @@
       "source_file": "brokerage_api/trading/positions_api.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 3,
+      "community": 28,
       "norm_label": "positions_api.py",
       "community_name": "Community 1",
       "id": "brokerage_api_trading_positions_api"
@@ -1229,7 +2149,7 @@
       "source_file": "brokerage_api/trading/positions_api.py",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 3,
+      "community": 28,
       "norm_label": "get_positions()",
       "community_name": "Community 1",
       "id": "brokerage_api_trading_positions_api_get_positions"
@@ -1240,7 +2160,7 @@
       "source_file": "brokerage_api/trading/positions_api.py",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 3,
+      "community": 28,
       "norm_label": "get_position()",
       "community_name": "Community 1",
       "id": "brokerage_api_trading_positions_api_get_position"
@@ -1251,7 +2171,7 @@
       "source_file": "brokerage_api/trading/positions_api.py",
       "source_location": "L29",
       "_origin": "ast",
-      "community": 3,
+      "community": 28,
       "norm_label": "close_all_positions()",
       "community_name": "Community 1",
       "id": "brokerage_api_trading_positions_api_close_all_positions"
@@ -1262,7 +2182,7 @@
       "source_file": "brokerage_api/trading/positions_api.py",
       "source_location": "L41",
       "_origin": "ast",
-      "community": 3,
+      "community": 28,
       "norm_label": "close_position()",
       "community_name": "Community 1",
       "id": "brokerage_api_trading_positions_api_close_position"
@@ -1273,7 +2193,7 @@
       "source_file": "brokerage_api/trading/positions_api.py",
       "source_location": "L53",
       "_origin": "ast",
-      "community": 3,
+      "community": 28,
       "norm_label": "exercise_option()",
       "community_name": "Community 1",
       "id": "brokerage_api_trading_positions_api_exercise_option"
@@ -1504,7 +2424,7 @@
       "source_file": "fintan_cli.py",
       "source_location": "L200",
       "_origin": "ast",
-      "community": 3,
+      "community": 28,
       "norm_label": "cmd_trading()",
       "community_name": "Community 1",
       "id": "fintan_cli_cmd_trading"
@@ -3167,12 +4087,1305 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_fintan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L138",
+      "weight": 1.0,
+      "source": "readme_fintan",
+      "target": "readme_api_capabilities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "readme_fintan",
+      "target": "readme_cli_usage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "readme_fintan",
+      "target": "readme_configuration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L311",
+      "weight": 1.0,
+      "source": "readme_fintan",
+      "target": "readme_equity_universe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L293",
+      "weight": 1.0,
+      "source": "readme_fintan",
+      "target": "readme_module_reference",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "readme_fintan",
+      "target": "readme_overview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L317",
+      "weight": 1.0,
+      "source": "readme_fintan",
+      "target": "readme_requirements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "readme_fintan",
+      "target": "readme_tech_stack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L230",
+      "weight": 1.0,
+      "source": "readme_fintan",
+      "target": "readme_technical_analysis_capabilities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L328",
+      "weight": 1.0,
+      "source": "readme_fintan",
+      "target": "readme_testing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L256",
+      "weight": 1.0,
+      "source": "readme_fintan",
+      "target": "readme_training_data_schema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "readme_cli_usage",
+      "target": "readme_automatically_publish_graphify_snapshots",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L142",
+      "weight": 1.0,
+      "source": "readme_api_capabilities",
+      "target": "readme_market_data_brokerage_api_market_data_stock_api_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L173",
+      "weight": 1.0,
+      "source": "readme_api_capabilities",
+      "target": "readme_options_data_brokerage_api_market_data_option_api_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L222",
+      "weight": 1.0,
+      "source": "readme_api_capabilities",
+      "target": "readme_trading_account_brokerage_api_trading_accounts_api_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L213",
+      "weight": 1.0,
+      "source": "readme_api_capabilities",
+      "target": "readme_trading_assets_brokerage_api_trading_assets_api_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L177",
+      "weight": 1.0,
+      "source": "readme_api_capabilities",
+      "target": "readme_trading_orders_brokerage_api_trading_orders_api_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L203",
+      "weight": 1.0,
+      "source": "readme_api_capabilities",
+      "target": "readme_trading_positions_brokerage_api_trading_positions_api_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L240",
+      "weight": 1.0,
+      "source": "readme_technical_analysis_capabilities",
+      "target": "readme_atr_average_true_range_timeseries_atr_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L246",
+      "weight": 1.0,
+      "source": "readme_technical_analysis_capabilities",
+      "target": "readme_bollinger_bands_timeseries_bollinger_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L251",
+      "weight": 1.0,
+      "source": "readme_technical_analysis_capabilities",
+      "target": "readme_fibonacci_retracement_timeseries_fibonacci_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L237",
+      "weight": 1.0,
+      "source": "readme_technical_analysis_capabilities",
+      "target": "readme_macd_moving_average_convergence_divergence_timeseries_macd_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L243",
+      "weight": 1.0,
+      "source": "readme_technical_analysis_capabilities",
+      "target": "readme_obv_on_balance_volume_timeseries_obv_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L234",
+      "weight": 1.0,
+      "source": "readme_technical_analysis_capabilities",
+      "target": "readme_rsi_relative_strength_index_timeseries_rsi_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L132",
+      "weight": 1.0,
+      "source": "scripts_graphify_auto_publish",
+      "target": "scripts_graphify_auto_publish_durable_changes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "scripts_graphify_auto_publish",
+      "target": "scripts_graphify_auto_publish_git",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "scripts_graphify_auto_publish",
+      "target": "scripts_graphify_auto_publish_git_paths",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "scripts_graphify_auto_publish",
+      "target": "scripts_graphify_auto_publish_is_durable_graphify_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L187",
+      "weight": 1.0,
+      "source": "scripts_graphify_auto_publish",
+      "target": "scripts_graphify_auto_publish_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L146",
+      "weight": 1.0,
+      "source": "scripts_graphify_auto_publish",
+      "target": "scripts_graphify_auto_publish_publish",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "scripts_graphify_auto_publish",
+      "target": "scripts_graphify_auto_publish_publisher_lock",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "scripts_graphify_auto_publish",
+      "target": "scripts_graphify_auto_publish_publisherror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "scripts_graphify_auto_publish",
+      "target": "scripts_graphify_auto_publish_repository_root",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L113",
+      "weight": 1.0,
+      "source": "scripts_graphify_auto_publish",
+      "target": "scripts_graphify_auto_publish_require_branch_and_upstream",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "indirect_call",
+      "context": "collection",
+      "confidence": "INFERRED",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L190",
+      "weight": 1.0,
+      "source": "scripts_graphify_auto_publish_main",
+      "target": "scripts_graphify_auto_publish_publisherror",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L154",
+      "weight": 1.0,
+      "source": "scripts_graphify_auto_publish_publish",
+      "target": "scripts_graphify_auto_publish_publisherror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L106",
+      "weight": 1.0,
+      "source": "scripts_graphify_auto_publish_publisher_lock",
+      "target": "scripts_graphify_auto_publish_publisherror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "scripts_graphify_auto_publish_publisherror",
+      "target": "scripts_graphify_auto_publish_py_runtimeerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "scripts_graphify_auto_publish_rationale_37",
+      "target": "scripts_graphify_auto_publish_publisherror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L116",
+      "weight": 1.0,
+      "source": "scripts_graphify_auto_publish_require_branch_and_upstream",
+      "target": "scripts_graphify_auto_publish_publisherror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "scripts_graphify_auto_publish_git",
+      "target": "scripts_graphify_auto_publish_py_completedprocess",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "scripts_graphify_auto_publish_git",
+      "target": "scripts_graphify_auto_publish_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L163",
+      "weight": 1.0,
+      "source": "scripts_graphify_auto_publish_publish",
+      "target": "scripts_graphify_auto_publish_git",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "scripts_graphify_auto_publish_publisher_lock",
+      "target": "scripts_graphify_auto_publish_git",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L114",
+      "weight": 1.0,
+      "source": "scripts_graphify_auto_publish_require_branch_and_upstream",
+      "target": "scripts_graphify_auto_publish_git",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L132",
+      "weight": 1.0,
+      "source": "scripts_graphify_auto_publish_durable_changes",
+      "target": "scripts_graphify_auto_publish_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "scripts_graphify_auto_publish_git_paths",
+      "target": "scripts_graphify_auto_publish_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "scripts_graphify_auto_publish_publisher_lock",
+      "target": "scripts_graphify_auto_publish_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "scripts_graphify_auto_publish_repository_root",
+      "target": "scripts_graphify_auto_publish_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L113",
+      "weight": 1.0,
+      "source": "scripts_graphify_auto_publish_require_branch_and_upstream",
+      "target": "scripts_graphify_auto_publish_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L133",
+      "weight": 1.0,
+      "source": "scripts_graphify_auto_publish_durable_changes",
+      "target": "scripts_graphify_auto_publish_git_paths",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L151",
+      "weight": 1.0,
+      "source": "scripts_graphify_auto_publish_publish",
+      "target": "scripts_graphify_auto_publish_git_paths",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L147",
+      "weight": 1.0,
+      "source": "scripts_graphify_auto_publish_publish",
+      "target": "scripts_graphify_auto_publish_repository_root",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L143",
+      "weight": 1.0,
+      "source": "scripts_graphify_auto_publish_durable_changes",
+      "target": "scripts_graphify_auto_publish_is_durable_graphify_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L150",
+      "weight": 1.0,
+      "source": "scripts_graphify_auto_publish_publish",
+      "target": "scripts_graphify_auto_publish_publisher_lock",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L148",
+      "weight": 1.0,
+      "source": "scripts_graphify_auto_publish_publish",
+      "target": "scripts_graphify_auto_publish_require_branch_and_upstream",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L158",
+      "weight": 1.0,
+      "source": "scripts_graphify_auto_publish_publish",
+      "target": "scripts_graphify_auto_publish_durable_changes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/graphify_auto_publish.py",
+      "source_location": "L189",
+      "weight": 1.0,
+      "source": "scripts_graphify_auto_publish_main",
+      "target": "scripts_graphify_auto_publish_publish",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/install_graphify_auto_publish.py",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "scripts_install_graphify_auto_publish",
+      "target": "scripts_install_graphify_auto_publish_hook_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/install_graphify_auto_publish.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "scripts_install_graphify_auto_publish",
+      "target": "scripts_install_graphify_auto_publish_installerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/install_graphify_auto_publish.py",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "scripts_install_graphify_auto_publish",
+      "target": "scripts_install_graphify_auto_publish_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/install_graphify_auto_publish.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "scripts_install_graphify_auto_publish",
+      "target": "scripts_install_graphify_auto_publish_patch_hook",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/install_graphify_auto_publish.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "scripts_install_graphify_auto_publish",
+      "target": "scripts_install_graphify_auto_publish_repository_root",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_graphify_auto_publish.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "tests_test_graphify_auto_publish",
+      "target": "scripts_install_graphify_auto_publish",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/install_graphify_auto_publish.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "scripts_install_graphify_auto_publish_installerror",
+      "target": "scripts_install_graphify_auto_publish_py_runtimeerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "indirect_call",
+      "context": "collection",
+      "confidence": "INFERRED",
+      "source_file": "scripts/install_graphify_auto_publish.py",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "scripts_install_graphify_auto_publish_main",
+      "target": "scripts_install_graphify_auto_publish_installerror",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/install_graphify_auto_publish.py",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "scripts_install_graphify_auto_publish_patch_hook",
+      "target": "scripts_install_graphify_auto_publish_installerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/install_graphify_auto_publish.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "scripts_install_graphify_auto_publish_rationale_33",
+      "target": "scripts_install_graphify_auto_publish_installerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/install_graphify_auto_publish.py",
+      "source_location": "L97",
+      "weight": 1.0,
+      "source": "scripts_install_graphify_auto_publish_main",
+      "target": "scripts_install_graphify_auto_publish_repository_root",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/install_graphify_auto_publish.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "scripts_install_graphify_auto_publish_repository_root",
+      "target": "scripts_install_graphify_auto_publish_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/install_graphify_auto_publish.py",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "scripts_install_graphify_auto_publish_hook_path",
+      "target": "scripts_install_graphify_auto_publish_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/install_graphify_auto_publish.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "scripts_install_graphify_auto_publish_patch_hook",
+      "target": "scripts_install_graphify_auto_publish_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/install_graphify_auto_publish.py",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "scripts_install_graphify_auto_publish_main",
+      "target": "scripts_install_graphify_auto_publish_hook_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/install_graphify_auto_publish.py",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "scripts_install_graphify_auto_publish_main",
+      "target": "scripts_install_graphify_auto_publish_patch_hook",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_graphify_auto_publish.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "tests_test_graphify_auto_publish",
+      "target": "scripts_install_graphify_auto_publish_patch_hook",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_graphify_auto_publish.py",
+      "source_location": "L152",
+      "weight": 1.0,
+      "source": "tests_test_graphify_auto_publish_hookinstallertest_test_patches_after_rebuild_and_is_idempotent",
+      "target": "scripts_install_graphify_auto_publish_patch_hook"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_graphify_auto_publish.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "tests_test_graphify_auto_publish",
+      "target": "tests_test_graphify_auto_publish_git",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_graphify_auto_publish.py",
+      "source_location": "L135",
+      "weight": 1.0,
+      "source": "tests_test_graphify_auto_publish",
+      "target": "tests_test_graphify_auto_publish_hookinstallertest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_graphify_auto_publish.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "tests_test_graphify_auto_publish",
+      "target": "tests_test_graphify_auto_publish_publisherintegrationtest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_graphify_auto_publish.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "tests_test_graphify_auto_publish_git",
+      "target": "tests_test_graphify_auto_publish_py_completedprocess",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_graphify_auto_publish.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "tests_test_graphify_auto_publish_git",
+      "target": "tests_test_graphify_auto_publish_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_graphify_auto_publish.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "tests_test_graphify_auto_publish_publisherintegrationtest_setup",
+      "target": "tests_test_graphify_auto_publish_git",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_graphify_auto_publish.py",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "tests_test_graphify_auto_publish_publisherintegrationtest_test_commits_and_pushes_only_durable_outputs",
+      "target": "tests_test_graphify_auto_publish_git",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_graphify_auto_publish.py",
+      "source_location": "L126",
+      "weight": 1.0,
+      "source": "tests_test_graphify_auto_publish_publisherintegrationtest_test_refuses_manually_staged_graphify_files",
+      "target": "tests_test_graphify_auto_publish_git",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_graphify_auto_publish.py",
+      "source_location": "L148",
+      "weight": 1.0,
+      "source": "tests_test_graphify_auto_publish_hookinstallertest_test_patches_after_rebuild_and_is_idempotent",
+      "target": "tests_test_graphify_auto_publish_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_graphify_auto_publish.py",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "tests_test_graphify_auto_publish_publisherintegrationtest_setup",
+      "target": "tests_test_graphify_auto_publish_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_graphify_auto_publish.py",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "tests_test_graphify_auto_publish_publisherintegrationtest_run_publisher",
+      "target": "tests_test_graphify_auto_publish_py_completedprocess",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_graphify_auto_publish.py",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "tests_test_graphify_auto_publish_publisherintegrationtest",
+      "target": "tests_test_graphify_auto_publish_publisherintegrationtest_run_publisher",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_graphify_auto_publish.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "tests_test_graphify_auto_publish_publisherintegrationtest",
+      "target": "tests_test_graphify_auto_publish_publisherintegrationtest_setup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_graphify_auto_publish.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "tests_test_graphify_auto_publish_publisherintegrationtest",
+      "target": "tests_test_graphify_auto_publish_publisherintegrationtest_test_commits_and_pushes_only_durable_outputs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_graphify_auto_publish.py",
+      "source_location": "L123",
+      "weight": 1.0,
+      "source": "tests_test_graphify_auto_publish_publisherintegrationtest",
+      "target": "tests_test_graphify_auto_publish_publisherintegrationtest_test_refuses_manually_staged_graphify_files",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_graphify_auto_publish.py",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "tests_test_graphify_auto_publish_publisherintegrationtest_test_commits_and_pushes_only_durable_outputs",
+      "target": "tests_test_graphify_auto_publish_publisherintegrationtest_run_publisher",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_graphify_auto_publish.py",
+      "source_location": "L128",
+      "weight": 1.0,
+      "source": "tests_test_graphify_auto_publish_publisherintegrationtest_test_refuses_manually_staged_graphify_files",
+      "target": "tests_test_graphify_auto_publish_publisherintegrationtest_run_publisher",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_graphify_auto_publish.py",
+      "source_location": "L146",
+      "weight": 1.0,
+      "source": "tests_test_graphify_auto_publish_hookinstallertest",
+      "target": "tests_test_graphify_auto_publish_hookinstallertest_test_patches_after_rebuild_and_is_idempotent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_skills_continuous_integration_skill",
+      "target": "agents_skills_continuous_integration_skill_continuous_integration_engineering"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L232",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_skills_continuous_integration_skill_continuous_integration_engineering",
+      "target": "agents_skills_continuous_integration_skill_build_and_artifact_handling"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L142",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_skills_continuous_integration_skill_continuous_integration_engineering",
+      "target": "agents_skills_continuous_integration_skill_caching"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L130",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_skills_continuous_integration_skill_continuous_integration_engineering",
+      "target": "agents_skills_continuous_integration_skill_change_aware_execution"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L393",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_skills_continuous_integration_skill_continuous_integration_engineering",
+      "target": "agents_skills_continuous_integration_skill_completion_report"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L260",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_skills_continuous_integration_skill_continuous_integration_engineering",
+      "target": "agents_skills_continuous_integration_skill_concurrency_and_cancellation"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L289",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_skills_continuous_integration_skill_continuous_integration_engineering",
+      "target": "agents_skills_continuous_integration_skill_database_and_contract_safety"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L353",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_skills_continuous_integration_skill_continuous_integration_engineering",
+      "target": "agents_skills_continuous_integration_skill_debugging_ci_failures"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L410",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_skills_continuous_integration_skill_continuous_integration_engineering",
+      "target": "agents_skills_continuous_integration_skill_definition_of_done"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L269",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_skills_continuous_integration_skill_continuous_integration_engineering",
+      "target": "agents_skills_continuous_integration_skill_diagnostics_and_developer_experience"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L246",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_skills_continuous_integration_skill_continuous_integration_engineering",
+      "target": "agents_skills_continuous_integration_skill_matrices_and_platform_coverage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L339",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_skills_continuous_integration_skill_continuous_integration_engineering",
+      "target": "agents_skills_continuous_integration_skill_modifying_an_existing_pipeline"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_skills_continuous_integration_skill_continuous_integration_engineering",
+      "target": "agents_skills_continuous_integration_skill_operating_boundaries"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L304",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_skills_continuous_integration_skill_continuous_integration_engineering",
+      "target": "agents_skills_continuous_integration_skill_performance_checks"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_skills_continuous_integration_skill_continuous_integration_engineering",
+      "target": "agents_skills_continuous_integration_skill_phase_1_orient_to_the_repository"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_skills_continuous_integration_skill_continuous_integration_engineering",
+      "target": "agents_skills_continuous_integration_skill_phase_2_define_the_integration_contract"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L85",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_skills_continuous_integration_skill_continuous_integration_engineering",
+      "target": "agents_skills_continuous_integration_skill_phase_3_design_the_pipeline"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L118",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_skills_continuous_integration_skill_continuous_integration_engineering",
+      "target": "agents_skills_continuous_integration_skill_reproducibility"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L211",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_skills_continuous_integration_skill_continuous_integration_engineering",
+      "target": "agents_skills_continuous_integration_skill_security"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L192",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_skills_continuous_integration_skill_continuous_integration_engineering",
+      "target": "agents_skills_continuous_integration_skill_static_quality_checks"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L156",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_skills_continuous_integration_skill_continuous_integration_engineering",
+      "target": "agents_skills_continuous_integration_skill_test_strategy"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L378",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_skills_continuous_integration_skill_continuous_integration_engineering",
+      "target": "agents_skills_continuous_integration_skill_validation_before_completion"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L315",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_skills_continuous_integration_skill_continuous_integration_engineering",
+      "target": "agents_skills_continuous_integration_skill_workflow_implementation_standards"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L87",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_skills_continuous_integration_skill_phase_3_design_the_pipeline",
+      "target": "agents_skills_continuous_integration_skill_fail_fast"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L103",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_skills_continuous_integration_skill_phase_3_design_the_pipeline",
+      "target": "agents_skills_continuous_integration_skill_keep_jobs_cohesive"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L185",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_skills_continuous_integration_skill_test_strategy",
+      "target": "agents_skills_continuous_integration_skill_coverage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L172",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_skills_continuous_integration_skill_test_strategy",
+      "target": "agents_skills_continuous_integration_skill_end_to_end_tests"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L178",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_skills_continuous_integration_skill_test_strategy",
+      "target": "agents_skills_continuous_integration_skill_flaky_tests"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L164",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_skills_continuous_integration_skill_test_strategy",
+      "target": "agents_skills_continuous_integration_skill_integration_tests"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/continuous-integration/SKILL.md",
+      "source_location": "L158",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_skills_continuous_integration_skill_test_strategy",
+      "target": "agents_skills_continuous_integration_skill_unit_tests"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": ".agents/skills/atomic-git-commits/SKILL.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agents_skills_atomic_git_commits_skill",
-      "target": "agents_skills_atomic_git_commits_skill_atomic_git_commit_workflow",
-      "confidence_score": 1.0
+      "target": "agents_skills_atomic_git_commits_skill_atomic_git_commit_workflow"
     },
     {
       "relation": "contains",
@@ -3180,9 +5393,9 @@
       "source_file": ".agents/skills/atomic-git-commits/SKILL.md",
       "source_location": "L46",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agents_skills_atomic_git_commits_skill_atomic_git_commit_workflow",
-      "target": "agents_skills_atomic_git_commits_skill_commit_messages",
-      "confidence_score": 1.0
+      "target": "agents_skills_atomic_git_commits_skill_commit_messages"
     },
     {
       "relation": "contains",
@@ -3190,9 +5403,9 @@
       "source_file": ".agents/skills/atomic-git-commits/SKILL.md",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agents_skills_atomic_git_commits_skill_atomic_git_commit_workflow",
-      "target": "agents_skills_atomic_git_commits_skill_commit_strategy",
-      "confidence_score": 1.0
+      "target": "agents_skills_atomic_git_commits_skill_commit_strategy"
     },
     {
       "relation": "contains",
@@ -3200,9 +5413,9 @@
       "source_file": ".agents/skills/atomic-git-commits/SKILL.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agents_skills_atomic_git_commits_skill_atomic_git_commit_workflow",
-      "target": "agents_skills_atomic_git_commits_skill_scope",
-      "confidence_score": 1.0
+      "target": "agents_skills_atomic_git_commits_skill_scope"
     },
     {
       "relation": "contains",
@@ -8723,5 +10936,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "13a65617ccc8aee092e4db998a8a3a9b349b239a"
+  "built_at_commit": "46d890c498528c6ab947c0fcd784e5bd5e24b27d"
 }
