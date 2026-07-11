@@ -75,6 +75,19 @@ fintan trading orders --param status=open
 
 The pipeline prints live progress bars showing fetch completion, elapsed time, and remaining API quota.
 
+### Automatically publish Graphify snapshots
+
+Graphify rebuilds its code graph asynchronously after ordinary commits. To commit and push the durable outputs after each successful rebuild, install Graphify's hook and then extend it with the repository-owned publisher:
+
+```bash
+graphify hook install
+python scripts/install_graphify_auto_publish.py
+```
+
+The current branch must have a configured upstream. The publisher creates a separate `chore: Refresh Graphify snapshot` commit and performs a normal `git push`. It never stages unrelated files or machine-local Graphify state. If the push is rejected, the snapshot commit remains local so the divergence can be resolved without losing generated output.
+
+The extension patches the currently installed hook layout. Rerun `python scripts/install_graphify_auto_publish.py` after Graphify reinstalls or upgrades its hook.
+
 ---
 
 ## Overview

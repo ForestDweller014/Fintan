@@ -7,3 +7,15 @@ __pycache__/
 !.env.example
 historical_files/
 training_files/
+
+# Machine-local and transient Graphify state
+graphify-out/.graphify_python
+graphify-out/.graphify_root
+graphify-out/.vocab.txt
+graphify-out/.graphify_learning.json
+graphify-out/.needs_update
+graphify-out/memory/
+graphify-out/reflections/
+graphify-out/????-??-??/
+graphify-out/*.lock
+graphify-out/cache/stat-index.json
