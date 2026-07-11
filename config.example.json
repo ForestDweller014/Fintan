@@ -1,0 +1,21 @@
+{
+  "trading_mode": "paper",
+  "live": {
+    "api_key_id": "",
+    "api_secret_key": "",
+    "apiserver_domain": "https://api.alpaca.markets"
+  },
+  "paper": {
+    "api_key_id": "",
+    "api_secret_key": "",
+    "apiserver_domain": "https://paper-api.alpaca.markets"
+  },
+  "HUGGINGFACE_HUB_TOKEN": "",
+  "FINNHUB_API_KEY": "",
+  "GROQ_TOKEN": "",
+  "OPENAI_API_KEY": "",
+  "STAY_SIZE": 5,
+  "PREDICTION_SIZE": 27,
+  "INTERVAL_DURATION": 1,
+  "MAX_CALLS_PER_PERIOD": 200
+}

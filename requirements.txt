@@ -1,0 +1,7 @@
+aiohttp
+matplotlib
+numpy
+pandas
+pandas_market_calendars
+pytz
+requests

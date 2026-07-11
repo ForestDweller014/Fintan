@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fintan"
+version = "0.1.0"
+description = "CLI pipeline for generating labeled market-data training files."
+requires-python = ">=3.10"
+dependencies = [
+  "aiohttp",
+  "matplotlib",
+  "numpy",
+  "pandas",
+  "pandas_market_calendars",
+  "pytz",
+  "requests",
+]
+
+[project.scripts]
+fintan = "fintan_cli:main"

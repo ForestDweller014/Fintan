@@ -1,0 +1,9 @@
+config.json
+*.py[cod]
+__pycache__/
+.DS_Store
+.env
+.env.*
+!.env.example
+historical_files/
+training_files/
