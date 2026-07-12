@@ -331,3 +331,11 @@ requests
 python -m unittest discover -s tests
 python -m fintan_cli --help
 ```
+
+---
+
+## License
+
+Fintan's source code and original documentation are licensed under the [Apache License 2.0](LICENSE).
+
+Market data retrieved through Alpaca, including generated files under `historical_files/` and `training_files/`, is not relicensed by this project. Use and redistribution of that data remain subject to the rights and terms of the applicable data provider.

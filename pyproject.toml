@@ -1,11 +1,13 @@
 [build-system]
-requires = ["setuptools>=61"]
+requires = ["setuptools>=77.0.3"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "fintan"
 version = "0.1.0"
 description = "CLI pipeline for generating labeled market-data training files."
+license = "Apache-2.0"
+license-files = ["LICENSE"]
 requires-python = ">=3.10"
 dependencies = [
   "aiohttp",
@@ -19,3 +21,27 @@ dependencies = [
 
 [project.scripts]
 fintan = "fintan_cli:main"
+
+[tool.setuptools]
+py-modules = [
+  "app_config",
+  "fintan_cli",
+  "historical_file_generator",
+  "input_generator",
+  "interval_generator",
+  "label_generator",
+  "main",
+  "online_stats",
+  "serializer",
+  "signal_utils",
+  "timeseries_atr",
+  "timeseries_bollinger",
+  "timeseries_fibonacci",
+  "timeseries_macd",
+  "timeseries_obv",
+  "timeseries_rsi",
+  "training_file_generator",
+]
+
+[tool.setuptools.packages.find]
+include = ["brokerage_api*", "technical_analysis*"]
