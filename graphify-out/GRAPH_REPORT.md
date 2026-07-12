@@ -1,16 +1,16 @@
-# Graph Report - Fintan  (2026-07-10)
+# Graph Report - Fintan  (2026-07-11)
 
 ## Corpus Check
-- 58 files · ~29,425 words
+- 58 files · ~29,510 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 385 nodes · 651 edges · 31 communities (25 shown, 6 thin omitted)
+- 386 nodes · 652 edges · 31 communities (25 shown, 6 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 15 edges (avg confidence: 0.5)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `46d890c4`
+- Built from commit: `41b4a325`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -48,24 +48,24 @@
 2. `cmd_trading()` - 21 edges
 3. `build_parser()` - 20 edges
 4. `can_generate_signal()` - 15 edges
-5. `welford_zscore()` - 13 edges
-6. `Fintan` - 12 edges
+5. `Fintan` - 13 edges
+6. `welford_zscore()` - 13 edges
 7. `What You Must Do When Invoked` - 12 edges
 8. `generate_inputs_batch()` - 11 edges
 9. `/graphify` - 10 edges
 10. `read_data()` - 10 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `cmd_trading()` --calls--> `get_asset()`  [EXTRACTED]
-  fintan_cli.py → brokerage_api/trading/assets_api.py
 - `cmd_fetch_history()` --calls--> `generate_historical_file()`  [EXTRACTED]
   fintan_cli.py → historical_file_generator.py
+- `cmd_generate_training()` --calls--> `generate_training_files()`  [EXTRACTED]
+  fintan_cli.py → training_file_generator.py
 - `cmd_pipeline()` --calls--> `generate_historical_file()`  [EXTRACTED]
   fintan_cli.py → historical_file_generator.py
+- `cmd_pipeline()` --calls--> `generate_training_files()`  [EXTRACTED]
+  fintan_cli.py → training_file_generator.py
 - `cmd_inputs()` --calls--> `generate_inputs_batch()`  [EXTRACTED]
   fintan_cli.py → input_generator.py
-- `generate_historical_file_batch()` --calls--> `write_data()`  [EXTRACTED]
-  historical_file_generator.py → serializer.py
 
 ## Import Cycles
 - None detected.
@@ -77,8 +77,8 @@ Cohesion: 0.11
 Nodes (28): generate_inputs_batch(), welford_mean_std(), welford_zscore(), can_generate_signal(), OnlineStatsTest, generate_atr_batch(), generate_atr_signals(), Scan `batch_size` consecutive intervals starting at `start_index`, filter by (+20 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.08
-Nodes (55): ArgumentParser, get_asset(), Event, _add_order_common(), _add_param_flags(), _add_symbols_flags(), _add_trading_parsers(), build_parser() (+47 more)
+Cohesion: 0.07
+Nodes (55): ArgumentParser, get_account(), get_asset(), get_assets(), get_option(), get_options(), cancel_all_orders(), cancel_order() (+47 more)
 
 ### Community 2 - "Community 2"
 Cohesion: 0.11
@@ -141,12 +141,12 @@ Cohesion: 0.40
 Nodes (4): Atomic Git Commit Workflow, Commit messages, Commit strategy, Scope
 
 ### Community 27 - "main.py"
-Cohesion: 0.08
-Nodes (25): API Capabilities, ATR — Average True Range (`timeseries_atr.py`), Automatically publish Graphify snapshots, Bollinger Bands (`timeseries_bollinger.py`), CLI Usage, Configuration, Equity Universe, Fibonacci Retracement (`timeseries_fibonacci.py`) (+17 more)
+Cohesion: 0.07
+Nodes (26): API Capabilities, ATR — Average True Range (`timeseries_atr.py`), Automatically publish Graphify snapshots, Bollinger Bands (`timeseries_bollinger.py`), CLI Usage, Configuration, Equity Universe, Fibonacci Retracement (`timeseries_fibonacci.py`) (+18 more)
 
 ### Community 28 - "cmd_trading"
-Cohesion: 0.16
-Nodes (16): get_account(), get_assets(), get_option(), get_options(), cancel_all_orders(), cancel_order(), get_order(), get_orders() (+8 more)
+Cohesion: 0.21
+Nodes (16): Event, cmd_labels(), generate_labels(), generate_labels_batch(), Lock, main(), print("Length of equity list: " + str(len(equity_list)))     try:         ensure, partial (+8 more)
 
 ### Community 29 - "install_graphify_auto_publish.py"
 Cohesion: 0.19
@@ -157,24 +157,24 @@ Cohesion: 0.32
 Nodes (14): _durable_changes(), _git(), _git_paths(), is_durable_graphify_path(), main(), publish(), publisher_lock(), PublishError (+6 more)
 
 ## Knowledge Gaps
-- **94 isolated node(s):** `Tech Stack`, `Automatically publish Graphify snapshots`, `Overview`, `Configuration`, `Market Data (`brokerage_api/market_data/stock_api.py`)` (+89 more)
+- **95 isolated node(s):** `Tech Stack`, `Automatically publish Graphify snapshots`, `Overview`, `Configuration`, `Market Data (`brokerage_api/market_data/stock_api.py`)` (+90 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `generate_inputs_batch()` connect `Community 0` to `Community 1`?**
+- **Why does `generate_inputs_batch()` connect `Community 0` to `Community 1`, `cmd_trading`?**
   _High betweenness centrality (0.013) - this node is a cross-community bridge._
+- **Why does `build_parser()` connect `Community 1` to `cmd_trading`?**
+  _High betweenness centrality (0.008) - this node is a cross-community bridge._
 - **Are the 11 inferred relationships involving `build_parser()` (e.g. with `cmd_fetch_history()` and `cmd_generate_training()`) actually correct?**
   _`build_parser()` has 11 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `Tech Stack`, `Automatically publish Graphify snapshots`, `Overview` to the rest of the system?**
-  _127 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _128 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.11498257839721254 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
-  _Cohesion score 0.07884615384615384 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07355769230769231 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.11330049261083744 - nodes in this community are weakly interconnected._
-- **Should `Community 3` be split into smaller, more focused modules?**
-  _Cohesion score 0.06451612903225806 - nodes in this community are weakly interconnected._

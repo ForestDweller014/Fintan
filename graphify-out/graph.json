@@ -264,14 +264,37 @@
       "norm_label": "testing"
     },
     {
+      "label": "License",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L337",
+      "_origin": "ast",
+      "id": "readme_license",
+      "community": 27,
+      "norm_label": "license"
+    },
+    {
+      "label": "fintan",
+      "file_type": "code",
+      "type": "package",
+      "ecosystem": "python",
+      "source_file": "pyproject.toml",
+      "source_location": "L1",
+      "version": "0.1.0",
+      "_origin": "ast",
+      "id": "pkg_fintan",
+      "community": 13,
+      "norm_label": "fintan"
+    },
+    {
       "label": "graphify_auto_publish.py",
       "file_type": "code",
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "scripts_graphify_auto_publish",
       "community": 30,
-      "norm_label": "graphify_auto_publish.py"
+      "norm_label": "graphify_auto_publish.py",
+      "id": "scripts_graphify_auto_publish"
     },
     {
       "label": "PublishError",
@@ -279,9 +302,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L36",
       "_origin": "ast",
-      "id": "scripts_graphify_auto_publish_publisherror",
       "community": 30,
-      "norm_label": "publisherror"
+      "norm_label": "publisherror",
+      "id": "scripts_graphify_auto_publish_publisherror"
     },
     {
       "label": "RuntimeError",
@@ -289,9 +312,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "scripts_graphify_auto_publish_py_runtimeerror",
       "community": 30,
-      "norm_label": "runtimeerror"
+      "norm_label": "runtimeerror",
+      "id": "scripts_graphify_auto_publish_py_runtimeerror"
     },
     {
       "label": "_git()",
@@ -299,9 +322,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L40",
       "_origin": "ast",
-      "id": "scripts_graphify_auto_publish_git",
       "community": 30,
-      "norm_label": "_git()"
+      "norm_label": "_git()",
+      "id": "scripts_graphify_auto_publish_git"
     },
     {
       "label": "Path",
@@ -309,9 +332,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "scripts_graphify_auto_publish_py_path",
       "community": 30,
-      "norm_label": "path"
+      "norm_label": "path",
+      "id": "scripts_graphify_auto_publish_py_path"
     },
     {
       "label": "CompletedProcess",
@@ -319,9 +342,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "scripts_graphify_auto_publish_py_completedprocess",
       "community": 30,
-      "norm_label": "completedprocess"
+      "norm_label": "completedprocess",
+      "id": "scripts_graphify_auto_publish_py_completedprocess"
     },
     {
       "label": "_git_paths()",
@@ -329,9 +352,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L51",
       "_origin": "ast",
-      "id": "scripts_graphify_auto_publish_git_paths",
       "community": 30,
-      "norm_label": "_git_paths()"
+      "norm_label": "_git_paths()",
+      "id": "scripts_graphify_auto_publish_git_paths"
     },
     {
       "label": "repository_root()",
@@ -339,9 +362,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L62",
       "_origin": "ast",
-      "id": "scripts_graphify_auto_publish_repository_root",
       "community": 30,
-      "norm_label": "repository_root()"
+      "norm_label": "repository_root()",
+      "id": "scripts_graphify_auto_publish_repository_root"
     },
     {
       "label": "is_durable_graphify_path()",
@@ -349,9 +372,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L73",
       "_origin": "ast",
-      "id": "scripts_graphify_auto_publish_is_durable_graphify_path",
       "community": 30,
-      "norm_label": "is_durable_graphify_path()"
+      "norm_label": "is_durable_graphify_path()",
+      "id": "scripts_graphify_auto_publish_is_durable_graphify_path"
     },
     {
       "label": "publisher_lock()",
@@ -359,9 +382,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L98",
       "_origin": "ast",
-      "id": "scripts_graphify_auto_publish_publisher_lock",
       "community": 30,
-      "norm_label": "publisher_lock()"
+      "norm_label": "publisher_lock()",
+      "id": "scripts_graphify_auto_publish_publisher_lock"
     },
     {
       "label": "_require_branch_and_upstream()",
@@ -369,9 +392,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L113",
       "_origin": "ast",
-      "id": "scripts_graphify_auto_publish_require_branch_and_upstream",
       "community": 30,
-      "norm_label": "_require_branch_and_upstream()"
+      "norm_label": "_require_branch_and_upstream()",
+      "id": "scripts_graphify_auto_publish_require_branch_and_upstream"
     },
     {
       "label": "_durable_changes()",
@@ -379,9 +402,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L132",
       "_origin": "ast",
-      "id": "scripts_graphify_auto_publish_durable_changes",
       "community": 30,
-      "norm_label": "_durable_changes()"
+      "norm_label": "_durable_changes()",
+      "id": "scripts_graphify_auto_publish_durable_changes"
     },
     {
       "label": "publish()",
@@ -389,9 +412,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L146",
       "_origin": "ast",
-      "id": "scripts_graphify_auto_publish_publish",
       "community": 30,
-      "norm_label": "publish()"
+      "norm_label": "publish()",
+      "id": "scripts_graphify_auto_publish_publish"
     },
     {
       "label": "main()",
@@ -399,9 +422,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L187",
       "_origin": "ast",
-      "id": "scripts_graphify_auto_publish_main",
       "community": 30,
-      "norm_label": "main()"
+      "norm_label": "main()",
+      "id": "scripts_graphify_auto_publish_main"
     },
     {
       "label": "A safe publishing precondition was not met.",
@@ -409,9 +432,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L37",
       "_origin": "ast",
-      "id": "scripts_graphify_auto_publish_rationale_37",
       "community": 30,
-      "norm_label": "a safe publishing precondition was not met."
+      "norm_label": "a safe publishing precondition was not met.",
+      "id": "scripts_graphify_auto_publish_rationale_37"
     },
     {
       "label": "install_graphify_auto_publish.py",
@@ -419,9 +442,9 @@
       "source_file": "scripts/install_graphify_auto_publish.py",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "scripts_install_graphify_auto_publish",
       "community": 29,
-      "norm_label": "install_graphify_auto_publish.py"
+      "norm_label": "install_graphify_auto_publish.py",
+      "id": "scripts_install_graphify_auto_publish"
     },
     {
       "label": "InstallError",
@@ -429,9 +452,9 @@
       "source_file": "scripts/install_graphify_auto_publish.py",
       "source_location": "L32",
       "_origin": "ast",
-      "id": "scripts_install_graphify_auto_publish_installerror",
       "community": 29,
-      "norm_label": "installerror"
+      "norm_label": "installerror",
+      "id": "scripts_install_graphify_auto_publish_installerror"
     },
     {
       "label": "RuntimeError",
@@ -439,9 +462,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "scripts_install_graphify_auto_publish_py_runtimeerror",
       "community": 29,
-      "norm_label": "runtimeerror"
+      "norm_label": "runtimeerror",
+      "id": "scripts_install_graphify_auto_publish_py_runtimeerror"
     },
     {
       "label": "repository_root()",
@@ -449,9 +472,9 @@
       "source_file": "scripts/install_graphify_auto_publish.py",
       "source_location": "L36",
       "_origin": "ast",
-      "id": "scripts_install_graphify_auto_publish_repository_root",
       "community": 29,
-      "norm_label": "repository_root()"
+      "norm_label": "repository_root()",
+      "id": "scripts_install_graphify_auto_publish_repository_root"
     },
     {
       "label": "Path",
@@ -459,9 +482,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "scripts_install_graphify_auto_publish_py_path",
       "community": 29,
-      "norm_label": "path"
+      "norm_label": "path",
+      "id": "scripts_install_graphify_auto_publish_py_path"
     },
     {
       "label": "hook_path()",
@@ -469,9 +492,9 @@
       "source_file": "scripts/install_graphify_auto_publish.py",
       "source_location": "L47",
       "_origin": "ast",
-      "id": "scripts_install_graphify_auto_publish_hook_path",
       "community": 29,
-      "norm_label": "hook_path()"
+      "norm_label": "hook_path()",
+      "id": "scripts_install_graphify_auto_publish_hook_path"
     },
     {
       "label": "patch_hook()",
@@ -479,9 +502,9 @@
       "source_file": "scripts/install_graphify_auto_publish.py",
       "source_location": "L60",
       "_origin": "ast",
-      "id": "scripts_install_graphify_auto_publish_patch_hook",
       "community": 29,
-      "norm_label": "patch_hook()"
+      "norm_label": "patch_hook()",
+      "id": "scripts_install_graphify_auto_publish_patch_hook"
     },
     {
       "label": "main()",
@@ -489,9 +512,9 @@
       "source_file": "scripts/install_graphify_auto_publish.py",
       "source_location": "L95",
       "_origin": "ast",
-      "id": "scripts_install_graphify_auto_publish_main",
       "community": 29,
-      "norm_label": "main()"
+      "norm_label": "main()",
+      "id": "scripts_install_graphify_auto_publish_main"
     },
     {
       "label": "The hook is absent or does not match the supported Graphify layout.",
@@ -499,9 +522,9 @@
       "source_file": "scripts/install_graphify_auto_publish.py",
       "source_location": "L33",
       "_origin": "ast",
-      "id": "scripts_install_graphify_auto_publish_rationale_33",
       "community": 29,
-      "norm_label": "the hook is absent or does not match the supported graphify layout."
+      "norm_label": "the hook is absent or does not match the supported graphify layout.",
+      "id": "scripts_install_graphify_auto_publish_rationale_33"
     },
     {
       "label": "test_graphify_auto_publish.py",
@@ -509,9 +532,9 @@
       "source_file": "tests/test_graphify_auto_publish.py",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "tests_test_graphify_auto_publish",
       "community": 29,
-      "norm_label": "test_graphify_auto_publish.py"
+      "norm_label": "test_graphify_auto_publish.py",
+      "id": "tests_test_graphify_auto_publish"
     },
     {
       "label": "git()",
@@ -519,9 +542,9 @@
       "source_file": "tests/test_graphify_auto_publish.py",
       "source_location": "L20",
       "_origin": "ast",
-      "id": "tests_test_graphify_auto_publish_git",
       "community": 29,
-      "norm_label": "git()"
+      "norm_label": "git()",
+      "id": "tests_test_graphify_auto_publish_git"
     },
     {
       "label": "Path",
@@ -529,9 +552,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "tests_test_graphify_auto_publish_py_path",
       "community": 29,
-      "norm_label": "path"
+      "norm_label": "path",
+      "id": "tests_test_graphify_auto_publish_py_path"
     },
     {
       "label": "CompletedProcess",
@@ -539,9 +562,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "tests_test_graphify_auto_publish_py_completedprocess",
       "community": 29,
-      "norm_label": "completedprocess"
+      "norm_label": "completedprocess",
+      "id": "tests_test_graphify_auto_publish_py_completedprocess"
     },
     {
       "label": "PublisherIntegrationTest",
@@ -549,9 +572,9 @@
       "source_file": "tests/test_graphify_auto_publish.py",
       "source_location": "L31",
       "_origin": "ast",
-      "id": "tests_test_graphify_auto_publish_publisherintegrationtest",
       "community": 29,
-      "norm_label": "publisherintegrationtest"
+      "norm_label": "publisherintegrationtest",
+      "id": "tests_test_graphify_auto_publish_publisherintegrationtest"
     },
     {
       "label": ".setUp()",
@@ -559,9 +582,9 @@
       "source_file": "tests/test_graphify_auto_publish.py",
       "source_location": "L32",
       "_origin": "ast",
-      "id": "tests_test_graphify_auto_publish_publisherintegrationtest_setup",
       "community": 29,
-      "norm_label": ".setup()"
+      "norm_label": ".setup()",
+      "id": "tests_test_graphify_auto_publish_publisherintegrationtest_setup"
     },
     {
       "label": ".run_publisher()",
@@ -569,9 +592,9 @@
       "source_file": "tests/test_graphify_auto_publish.py",
       "source_location": "L58",
       "_origin": "ast",
-      "id": "tests_test_graphify_auto_publish_publisherintegrationtest_run_publisher",
       "community": 29,
-      "norm_label": ".run_publisher()"
+      "norm_label": ".run_publisher()",
+      "id": "tests_test_graphify_auto_publish_publisherintegrationtest_run_publisher"
     },
     {
       "label": ".test_commits_and_pushes_only_durable_outputs()",
@@ -579,9 +602,9 @@
       "source_file": "tests/test_graphify_auto_publish.py",
       "source_location": "L68",
       "_origin": "ast",
-      "id": "tests_test_graphify_auto_publish_publisherintegrationtest_test_commits_and_pushes_only_durable_outputs",
       "community": 29,
-      "norm_label": ".test_commits_and_pushes_only_durable_outputs()"
+      "norm_label": ".test_commits_and_pushes_only_durable_outputs()",
+      "id": "tests_test_graphify_auto_publish_publisherintegrationtest_test_commits_and_pushes_only_durable_outputs"
     },
     {
       "label": ".test_refuses_manually_staged_graphify_files()",
@@ -589,9 +612,9 @@
       "source_file": "tests/test_graphify_auto_publish.py",
       "source_location": "L123",
       "_origin": "ast",
-      "id": "tests_test_graphify_auto_publish_publisherintegrationtest_test_refuses_manually_staged_graphify_files",
       "community": 29,
-      "norm_label": ".test_refuses_manually_staged_graphify_files()"
+      "norm_label": ".test_refuses_manually_staged_graphify_files()",
+      "id": "tests_test_graphify_auto_publish_publisherintegrationtest_test_refuses_manually_staged_graphify_files"
     },
     {
       "label": "HookInstallerTest",
@@ -599,9 +622,9 @@
       "source_file": "tests/test_graphify_auto_publish.py",
       "source_location": "L135",
       "_origin": "ast",
-      "id": "tests_test_graphify_auto_publish_hookinstallertest",
       "community": 29,
-      "norm_label": "hookinstallertest"
+      "norm_label": "hookinstallertest",
+      "id": "tests_test_graphify_auto_publish_hookinstallertest"
     },
     {
       "label": ".test_patches_after_rebuild_and_is_idempotent()",
@@ -609,9 +632,9 @@
       "source_file": "tests/test_graphify_auto_publish.py",
       "source_location": "L146",
       "_origin": "ast",
-      "id": "tests_test_graphify_auto_publish_hookinstallertest_test_patches_after_rebuild_and_is_idempotent",
       "community": 29,
-      "norm_label": ".test_patches_after_rebuild_and_is_idempotent()"
+      "norm_label": ".test_patches_after_rebuild_and_is_idempotent()",
+      "id": "tests_test_graphify_auto_publish_hookinstallertest_test_patches_after_rebuild_and_is_idempotent"
     },
     {
       "label": "SKILL.md",
@@ -1819,7 +1842,7 @@
       "source_file": "brokerage_api/trading/accounts_api.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 28,
+      "community": 1,
       "norm_label": "accounts_api.py",
       "community_name": "Community 8",
       "id": "brokerage_api_trading_accounts_api"
@@ -1830,7 +1853,7 @@
       "source_file": "brokerage_api/trading/accounts_api.py",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 28,
+      "community": 1,
       "norm_label": "get_account()",
       "community_name": "Community 1",
       "id": "brokerage_api_trading_accounts_api_get_account"
@@ -1841,7 +1864,7 @@
       "source_file": "brokerage_api/trading/assets_api.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 28,
+      "community": 1,
       "norm_label": "assets_api.py",
       "community_name": "Community 1",
       "id": "brokerage_api_trading_assets_api"
@@ -1852,7 +1875,7 @@
       "source_file": "brokerage_api/trading/assets_api.py",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 28,
+      "community": 1,
       "norm_label": "get_assets()",
       "community_name": "Community 1",
       "id": "brokerage_api_trading_assets_api_get_assets"
@@ -1874,7 +1897,7 @@
       "source_file": "brokerage_api/trading/assets_api.py",
       "source_location": "L29",
       "_origin": "ast",
-      "community": 28,
+      "community": 1,
       "norm_label": "get_options()",
       "community_name": "Community 1",
       "id": "brokerage_api_trading_assets_api_get_options"
@@ -1885,7 +1908,7 @@
       "source_file": "brokerage_api/trading/assets_api.py",
       "source_location": "L41",
       "_origin": "ast",
-      "community": 28,
+      "community": 1,
       "norm_label": "get_option()",
       "community_name": "Community 1",
       "id": "brokerage_api_trading_assets_api_get_option"
@@ -2061,7 +2084,7 @@
       "source_file": "brokerage_api/trading/orders_api.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 28,
+      "community": 1,
       "norm_label": "orders_api.py",
       "community_name": "Community 1",
       "id": "brokerage_api_trading_orders_api"
@@ -2072,7 +2095,7 @@
       "source_file": "brokerage_api/trading/orders_api.py",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 28,
+      "community": 1,
       "norm_label": "get_orders()",
       "community_name": "Community 1",
       "id": "brokerage_api_trading_orders_api_get_orders"
@@ -2083,7 +2106,7 @@
       "source_file": "brokerage_api/trading/orders_api.py",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 28,
+      "community": 1,
       "norm_label": "get_order()",
       "community_name": "Community 1",
       "id": "brokerage_api_trading_orders_api_get_order"
@@ -2094,7 +2117,7 @@
       "source_file": "brokerage_api/trading/orders_api.py",
       "source_location": "L29",
       "_origin": "ast",
-      "community": 28,
+      "community": 1,
       "norm_label": "place_order()",
       "community_name": "Community 1",
       "id": "brokerage_api_trading_orders_api_place_order"
@@ -2105,7 +2128,7 @@
       "source_file": "brokerage_api/trading/orders_api.py",
       "source_location": "L42",
       "_origin": "ast",
-      "community": 28,
+      "community": 1,
       "norm_label": "cancel_all_orders()",
       "community_name": "Community 1",
       "id": "brokerage_api_trading_orders_api_cancel_all_orders"
@@ -2116,7 +2139,7 @@
       "source_file": "brokerage_api/trading/orders_api.py",
       "source_location": "L54",
       "_origin": "ast",
-      "community": 28,
+      "community": 1,
       "norm_label": "cancel_order()",
       "community_name": "Community 1",
       "id": "brokerage_api_trading_orders_api_cancel_order"
@@ -2127,7 +2150,7 @@
       "source_file": "brokerage_api/trading/orders_api.py",
       "source_location": "L66",
       "_origin": "ast",
-      "community": 28,
+      "community": 1,
       "norm_label": "update_order()",
       "community_name": "Community 1",
       "id": "brokerage_api_trading_orders_api_update_order"
@@ -2138,7 +2161,7 @@
       "source_file": "brokerage_api/trading/positions_api.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 28,
+      "community": 1,
       "norm_label": "positions_api.py",
       "community_name": "Community 1",
       "id": "brokerage_api_trading_positions_api"
@@ -2149,7 +2172,7 @@
       "source_file": "brokerage_api/trading/positions_api.py",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 28,
+      "community": 1,
       "norm_label": "get_positions()",
       "community_name": "Community 1",
       "id": "brokerage_api_trading_positions_api_get_positions"
@@ -2160,7 +2183,7 @@
       "source_file": "brokerage_api/trading/positions_api.py",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 28,
+      "community": 1,
       "norm_label": "get_position()",
       "community_name": "Community 1",
       "id": "brokerage_api_trading_positions_api_get_position"
@@ -2171,7 +2194,7 @@
       "source_file": "brokerage_api/trading/positions_api.py",
       "source_location": "L29",
       "_origin": "ast",
-      "community": 28,
+      "community": 1,
       "norm_label": "close_all_positions()",
       "community_name": "Community 1",
       "id": "brokerage_api_trading_positions_api_close_all_positions"
@@ -2182,7 +2205,7 @@
       "source_file": "brokerage_api/trading/positions_api.py",
       "source_location": "L41",
       "_origin": "ast",
-      "community": 28,
+      "community": 1,
       "norm_label": "close_position()",
       "community_name": "Community 1",
       "id": "brokerage_api_trading_positions_api_close_position"
@@ -2193,7 +2216,7 @@
       "source_file": "brokerage_api/trading/positions_api.py",
       "source_location": "L53",
       "_origin": "ast",
-      "community": 28,
+      "community": 1,
       "norm_label": "exercise_option()",
       "community_name": "Community 1",
       "id": "brokerage_api_trading_positions_api_exercise_option"
@@ -2369,7 +2392,7 @@
       "source_file": "fintan_cli.py",
       "source_location": "L140",
       "_origin": "ast",
-      "community": 1,
+      "community": 28,
       "norm_label": "cmd_labels()",
       "community_name": "Community 3",
       "id": "fintan_cli_cmd_labels"
@@ -2424,7 +2447,7 @@
       "source_file": "fintan_cli.py",
       "source_location": "L200",
       "_origin": "ast",
-      "community": 28,
+      "community": 1,
       "norm_label": "cmd_trading()",
       "community_name": "Community 1",
       "id": "fintan_cli_cmd_trading"
@@ -2732,7 +2755,7 @@
       "source_file": "label_generator.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 1,
+      "community": 28,
       "norm_label": "label_generator.py",
       "community_name": "Community 3",
       "id": "label_generator"
@@ -2743,7 +2766,7 @@
       "source_file": "label_generator.py",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 1,
+      "community": 28,
       "norm_label": "generate_labels()",
       "community_name": "Community 3",
       "id": "label_generator_generate_labels"
@@ -2754,7 +2777,7 @@
       "source_file": "label_generator.py",
       "source_location": "L107",
       "_origin": "ast",
-      "community": 1,
+      "community": 28,
       "norm_label": "generate_labels_batch()",
       "community_name": "Community 3",
       "id": "label_generator_generate_labels_batch"
@@ -2765,7 +2788,7 @@
       "source_file": "main.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 1,
+      "community": 28,
       "norm_label": "main.py",
       "community_name": "Community 3",
       "id": "main"
@@ -2809,7 +2832,7 @@
       "source_file": "main.py",
       "source_location": "L74",
       "_origin": "ast",
-      "community": 1,
+      "community": 28,
       "norm_label": "main()",
       "community_name": "Community 3",
       "id": "main_main"
@@ -2853,7 +2876,7 @@
       "source_file": "main.py",
       "source_location": "L75",
       "_origin": "ast",
-      "community": 1,
+      "community": 28,
       "norm_label": "print(\"length of equity list: \" + str(len(equity_list)))     try:         ensure",
       "community_name": "Community 3",
       "id": "main_rationale_75"
@@ -2892,26 +2915,12 @@
       "id": "online_stats_welford_zscore"
     },
     {
-      "label": "fintan",
-      "file_type": "code",
-      "type": "package",
-      "ecosystem": "python",
-      "source_file": "pyproject.toml",
-      "source_location": "L1",
-      "version": "0.1.0",
-      "_origin": "ast",
-      "community": 13,
-      "norm_label": "fintan",
-      "community_name": "Community 13",
-      "id": "pkg_fintan"
-    },
-    {
       "label": "serializer.py",
       "file_type": "code",
       "source_file": "serializer.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 1,
+      "community": 28,
       "norm_label": "serializer.py",
       "community_name": "Community 3",
       "id": "serializer"
@@ -2922,7 +2931,7 @@
       "source_file": "serializer.py",
       "source_location": "L8",
       "_origin": "ast",
-      "community": 1,
+      "community": 28,
       "norm_label": "read_data()",
       "community_name": "Community 3",
       "id": "serializer_read_data"
@@ -2933,7 +2942,7 @@
       "source_file": "serializer.py",
       "source_location": "L40",
       "_origin": "ast",
-      "community": 1,
+      "community": 28,
       "norm_label": "write_data()",
       "community_name": "Community 3",
       "id": "serializer_write_data"
@@ -2955,7 +2964,7 @@
       "source_file": "serializer.py",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 1,
+      "community": 28,
       "norm_label": "read records from a jsonl file as a list of dicts.      :param batch_size: numbe",
       "community_name": "Community 3",
       "id": "serializer_rationale_9"
@@ -3989,7 +3998,7 @@
       "source_file": "training_file_generator.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 1,
+      "community": 28,
       "norm_label": "training_file_generator.py",
       "community_name": "Community 3",
       "id": "training_file_generator"
@@ -4000,7 +4009,7 @@
       "source_file": "training_file_generator.py",
       "source_location": "L26",
       "_origin": "ast",
-      "community": 1,
+      "community": 28,
       "norm_label": "log_progress()",
       "community_name": "Community 3",
       "id": "training_file_generator_log_progress"
@@ -4011,7 +4020,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 1,
+      "community": 28,
       "norm_label": "event",
       "community_name": "Community 3",
       "id": "event"
@@ -4022,7 +4031,7 @@
       "source_file": "training_file_generator.py",
       "source_location": "L78",
       "_origin": "ast",
-      "community": 1,
+      "community": 28,
       "norm_label": "generate_training_file_batch()",
       "community_name": "Community 3",
       "id": "training_file_generator_generate_training_file_batch"
@@ -4033,7 +4042,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 1,
+      "community": 28,
       "norm_label": "lock",
       "community_name": "Community 3",
       "id": "lock"
@@ -4044,7 +4053,7 @@
       "source_file": "training_file_generator.py",
       "source_location": "L104",
       "_origin": "ast",
-      "community": 1,
+      "community": 28,
       "norm_label": "generate_training_file()",
       "community_name": "Community 3",
       "id": "training_file_generator_generate_training_file"
@@ -4055,7 +4064,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 1,
+      "community": 28,
       "norm_label": "partial",
       "community_name": "Community 3",
       "id": "partial"
@@ -4066,7 +4075,7 @@
       "source_file": "training_file_generator.py",
       "source_location": "L148",
       "_origin": "ast",
-      "community": 1,
+      "community": 28,
       "norm_label": "generate_training_files()",
       "community_name": "Community 3",
       "id": "training_file_generator_generate_training_files"
@@ -4077,7 +4086,7 @@
       "source_file": "training_file_generator.py",
       "source_location": "L27",
       "_origin": "ast",
-      "community": 1,
+      "community": 28,
       "norm_label": "every 5 seconds, print how many batches each symbol has completed.     stops whe",
       "community_name": "Community 3",
       "id": "training_file_generator_rationale_27"
@@ -4132,6 +4141,16 @@
       "weight": 1.0,
       "source": "readme_fintan",
       "target": "readme_equity_universe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L337",
+      "weight": 1.0,
+      "source": "readme_fintan",
+      "target": "readme_license",
       "confidence_score": 1.0
     },
     {
@@ -4340,9 +4359,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L132",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_graphify_auto_publish",
-      "target": "scripts_graphify_auto_publish_durable_changes",
-      "confidence_score": 1.0
+      "target": "scripts_graphify_auto_publish_durable_changes"
     },
     {
       "relation": "contains",
@@ -4350,9 +4369,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_graphify_auto_publish",
-      "target": "scripts_graphify_auto_publish_git",
-      "confidence_score": 1.0
+      "target": "scripts_graphify_auto_publish_git"
     },
     {
       "relation": "contains",
@@ -4360,9 +4379,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_graphify_auto_publish",
-      "target": "scripts_graphify_auto_publish_git_paths",
-      "confidence_score": 1.0
+      "target": "scripts_graphify_auto_publish_git_paths"
     },
     {
       "relation": "contains",
@@ -4370,9 +4389,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L73",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_graphify_auto_publish",
-      "target": "scripts_graphify_auto_publish_is_durable_graphify_path",
-      "confidence_score": 1.0
+      "target": "scripts_graphify_auto_publish_is_durable_graphify_path"
     },
     {
       "relation": "contains",
@@ -4380,9 +4399,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L187",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_graphify_auto_publish",
-      "target": "scripts_graphify_auto_publish_main",
-      "confidence_score": 1.0
+      "target": "scripts_graphify_auto_publish_main"
     },
     {
       "relation": "contains",
@@ -4390,9 +4409,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L146",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_graphify_auto_publish",
-      "target": "scripts_graphify_auto_publish_publish",
-      "confidence_score": 1.0
+      "target": "scripts_graphify_auto_publish_publish"
     },
     {
       "relation": "contains",
@@ -4400,9 +4419,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L98",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_graphify_auto_publish",
-      "target": "scripts_graphify_auto_publish_publisher_lock",
-      "confidence_score": 1.0
+      "target": "scripts_graphify_auto_publish_publisher_lock"
     },
     {
       "relation": "contains",
@@ -4410,9 +4429,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_graphify_auto_publish",
-      "target": "scripts_graphify_auto_publish_publisherror",
-      "confidence_score": 1.0
+      "target": "scripts_graphify_auto_publish_publisherror"
     },
     {
       "relation": "contains",
@@ -4420,9 +4439,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_graphify_auto_publish",
-      "target": "scripts_graphify_auto_publish_repository_root",
-      "confidence_score": 1.0
+      "target": "scripts_graphify_auto_publish_repository_root"
     },
     {
       "relation": "contains",
@@ -4430,9 +4449,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L113",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_graphify_auto_publish",
-      "target": "scripts_graphify_auto_publish_require_branch_and_upstream",
-      "confidence_score": 1.0
+      "target": "scripts_graphify_auto_publish_require_branch_and_upstream"
     },
     {
       "relation": "indirect_call",
@@ -4441,9 +4460,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L190",
       "weight": 1.0,
+      "confidence_score": 0.5,
       "source": "scripts_graphify_auto_publish_main",
-      "target": "scripts_graphify_auto_publish_publisherror",
-      "confidence_score": 0.5
+      "target": "scripts_graphify_auto_publish_publisherror"
     },
     {
       "relation": "calls",
@@ -4452,9 +4471,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L154",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_graphify_auto_publish_publish",
-      "target": "scripts_graphify_auto_publish_publisherror",
-      "confidence_score": 1.0
+      "target": "scripts_graphify_auto_publish_publisherror"
     },
     {
       "relation": "calls",
@@ -4463,9 +4482,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L106",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_graphify_auto_publish_publisher_lock",
-      "target": "scripts_graphify_auto_publish_publisherror",
-      "confidence_score": 1.0
+      "target": "scripts_graphify_auto_publish_publisherror"
     },
     {
       "relation": "inherits",
@@ -4473,9 +4492,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_graphify_auto_publish_publisherror",
-      "target": "scripts_graphify_auto_publish_py_runtimeerror",
-      "confidence_score": 1.0
+      "target": "scripts_graphify_auto_publish_py_runtimeerror"
     },
     {
       "relation": "rationale_for",
@@ -4483,9 +4502,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_graphify_auto_publish_rationale_37",
-      "target": "scripts_graphify_auto_publish_publisherror",
-      "confidence_score": 1.0
+      "target": "scripts_graphify_auto_publish_publisherror"
     },
     {
       "relation": "calls",
@@ -4494,9 +4513,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L116",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_graphify_auto_publish_require_branch_and_upstream",
-      "target": "scripts_graphify_auto_publish_publisherror",
-      "confidence_score": 1.0
+      "target": "scripts_graphify_auto_publish_publisherror"
     },
     {
       "relation": "references",
@@ -4505,9 +4524,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_graphify_auto_publish_git",
-      "target": "scripts_graphify_auto_publish_py_completedprocess",
-      "confidence_score": 1.0
+      "target": "scripts_graphify_auto_publish_py_completedprocess"
     },
     {
       "relation": "references",
@@ -4516,9 +4535,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_graphify_auto_publish_git",
-      "target": "scripts_graphify_auto_publish_py_path",
-      "confidence_score": 1.0
+      "target": "scripts_graphify_auto_publish_py_path"
     },
     {
       "relation": "calls",
@@ -4527,9 +4546,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L163",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_graphify_auto_publish_publish",
-      "target": "scripts_graphify_auto_publish_git",
-      "confidence_score": 1.0
+      "target": "scripts_graphify_auto_publish_git"
     },
     {
       "relation": "calls",
@@ -4538,9 +4557,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L99",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_graphify_auto_publish_publisher_lock",
-      "target": "scripts_graphify_auto_publish_git",
-      "confidence_score": 1.0
+      "target": "scripts_graphify_auto_publish_git"
     },
     {
       "relation": "calls",
@@ -4549,9 +4568,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L114",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_graphify_auto_publish_require_branch_and_upstream",
-      "target": "scripts_graphify_auto_publish_git",
-      "confidence_score": 1.0
+      "target": "scripts_graphify_auto_publish_git"
     },
     {
       "relation": "references",
@@ -4560,9 +4579,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L132",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_graphify_auto_publish_durable_changes",
-      "target": "scripts_graphify_auto_publish_py_path",
-      "confidence_score": 1.0
+      "target": "scripts_graphify_auto_publish_py_path"
     },
     {
       "relation": "references",
@@ -4571,9 +4590,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_graphify_auto_publish_git_paths",
-      "target": "scripts_graphify_auto_publish_py_path",
-      "confidence_score": 1.0
+      "target": "scripts_graphify_auto_publish_py_path"
     },
     {
       "relation": "references",
@@ -4582,9 +4601,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L98",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_graphify_auto_publish_publisher_lock",
-      "target": "scripts_graphify_auto_publish_py_path",
-      "confidence_score": 1.0
+      "target": "scripts_graphify_auto_publish_py_path"
     },
     {
       "relation": "references",
@@ -4593,9 +4612,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_graphify_auto_publish_repository_root",
-      "target": "scripts_graphify_auto_publish_py_path",
-      "confidence_score": 1.0
+      "target": "scripts_graphify_auto_publish_py_path"
     },
     {
       "relation": "references",
@@ -4604,9 +4623,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L113",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_graphify_auto_publish_require_branch_and_upstream",
-      "target": "scripts_graphify_auto_publish_py_path",
-      "confidence_score": 1.0
+      "target": "scripts_graphify_auto_publish_py_path"
     },
     {
       "relation": "calls",
@@ -4615,9 +4634,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L133",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_graphify_auto_publish_durable_changes",
-      "target": "scripts_graphify_auto_publish_git_paths",
-      "confidence_score": 1.0
+      "target": "scripts_graphify_auto_publish_git_paths"
     },
     {
       "relation": "calls",
@@ -4626,9 +4645,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L151",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_graphify_auto_publish_publish",
-      "target": "scripts_graphify_auto_publish_git_paths",
-      "confidence_score": 1.0
+      "target": "scripts_graphify_auto_publish_git_paths"
     },
     {
       "relation": "calls",
@@ -4637,9 +4656,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L147",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_graphify_auto_publish_publish",
-      "target": "scripts_graphify_auto_publish_repository_root",
-      "confidence_score": 1.0
+      "target": "scripts_graphify_auto_publish_repository_root"
     },
     {
       "relation": "calls",
@@ -4648,9 +4667,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L143",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_graphify_auto_publish_durable_changes",
-      "target": "scripts_graphify_auto_publish_is_durable_graphify_path",
-      "confidence_score": 1.0
+      "target": "scripts_graphify_auto_publish_is_durable_graphify_path"
     },
     {
       "relation": "calls",
@@ -4659,9 +4678,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L150",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_graphify_auto_publish_publish",
-      "target": "scripts_graphify_auto_publish_publisher_lock",
-      "confidence_score": 1.0
+      "target": "scripts_graphify_auto_publish_publisher_lock"
     },
     {
       "relation": "calls",
@@ -4670,9 +4689,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L148",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_graphify_auto_publish_publish",
-      "target": "scripts_graphify_auto_publish_require_branch_and_upstream",
-      "confidence_score": 1.0
+      "target": "scripts_graphify_auto_publish_require_branch_and_upstream"
     },
     {
       "relation": "calls",
@@ -4681,9 +4700,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L158",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_graphify_auto_publish_publish",
-      "target": "scripts_graphify_auto_publish_durable_changes",
-      "confidence_score": 1.0
+      "target": "scripts_graphify_auto_publish_durable_changes"
     },
     {
       "relation": "calls",
@@ -4692,9 +4711,9 @@
       "source_file": "scripts/graphify_auto_publish.py",
       "source_location": "L189",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_graphify_auto_publish_main",
-      "target": "scripts_graphify_auto_publish_publish",
-      "confidence_score": 1.0
+      "target": "scripts_graphify_auto_publish_publish"
     },
     {
       "relation": "contains",
@@ -4702,9 +4721,9 @@
       "source_file": "scripts/install_graphify_auto_publish.py",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_install_graphify_auto_publish",
-      "target": "scripts_install_graphify_auto_publish_hook_path",
-      "confidence_score": 1.0
+      "target": "scripts_install_graphify_auto_publish_hook_path"
     },
     {
       "relation": "contains",
@@ -4712,9 +4731,9 @@
       "source_file": "scripts/install_graphify_auto_publish.py",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_install_graphify_auto_publish",
-      "target": "scripts_install_graphify_auto_publish_installerror",
-      "confidence_score": 1.0
+      "target": "scripts_install_graphify_auto_publish_installerror"
     },
     {
       "relation": "contains",
@@ -4722,9 +4741,9 @@
       "source_file": "scripts/install_graphify_auto_publish.py",
       "source_location": "L95",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_install_graphify_auto_publish",
-      "target": "scripts_install_graphify_auto_publish_main",
-      "confidence_score": 1.0
+      "target": "scripts_install_graphify_auto_publish_main"
     },
     {
       "relation": "contains",
@@ -4732,9 +4751,9 @@
       "source_file": "scripts/install_graphify_auto_publish.py",
       "source_location": "L60",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_install_graphify_auto_publish",
-      "target": "scripts_install_graphify_auto_publish_patch_hook",
-      "confidence_score": 1.0
+      "target": "scripts_install_graphify_auto_publish_patch_hook"
     },
     {
       "relation": "contains",
@@ -4742,9 +4761,9 @@
       "source_file": "scripts/install_graphify_auto_publish.py",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_install_graphify_auto_publish",
-      "target": "scripts_install_graphify_auto_publish_repository_root",
-      "confidence_score": 1.0
+      "target": "scripts_install_graphify_auto_publish_repository_root"
     },
     {
       "relation": "imports_from",
@@ -4753,9 +4772,9 @@
       "source_file": "tests/test_graphify_auto_publish.py",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_graphify_auto_publish",
-      "target": "scripts_install_graphify_auto_publish",
-      "confidence_score": 1.0
+      "target": "scripts_install_graphify_auto_publish"
     },
     {
       "relation": "inherits",
@@ -4763,9 +4782,9 @@
       "source_file": "scripts/install_graphify_auto_publish.py",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_install_graphify_auto_publish_installerror",
-      "target": "scripts_install_graphify_auto_publish_py_runtimeerror",
-      "confidence_score": 1.0
+      "target": "scripts_install_graphify_auto_publish_py_runtimeerror"
     },
     {
       "relation": "indirect_call",
@@ -4774,9 +4793,9 @@
       "source_file": "scripts/install_graphify_auto_publish.py",
       "source_location": "L99",
       "weight": 1.0,
+      "confidence_score": 0.5,
       "source": "scripts_install_graphify_auto_publish_main",
-      "target": "scripts_install_graphify_auto_publish_installerror",
-      "confidence_score": 0.5
+      "target": "scripts_install_graphify_auto_publish_installerror"
     },
     {
       "relation": "calls",
@@ -4785,9 +4804,9 @@
       "source_file": "scripts/install_graphify_auto_publish.py",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_install_graphify_auto_publish_patch_hook",
-      "target": "scripts_install_graphify_auto_publish_installerror",
-      "confidence_score": 1.0
+      "target": "scripts_install_graphify_auto_publish_installerror"
     },
     {
       "relation": "rationale_for",
@@ -4795,9 +4814,9 @@
       "source_file": "scripts/install_graphify_auto_publish.py",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_install_graphify_auto_publish_rationale_33",
-      "target": "scripts_install_graphify_auto_publish_installerror",
-      "confidence_score": 1.0
+      "target": "scripts_install_graphify_auto_publish_installerror"
     },
     {
       "relation": "calls",
@@ -4806,9 +4825,9 @@
       "source_file": "scripts/install_graphify_auto_publish.py",
       "source_location": "L97",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_install_graphify_auto_publish_main",
-      "target": "scripts_install_graphify_auto_publish_repository_root",
-      "confidence_score": 1.0
+      "target": "scripts_install_graphify_auto_publish_repository_root"
     },
     {
       "relation": "references",
@@ -4817,9 +4836,9 @@
       "source_file": "scripts/install_graphify_auto_publish.py",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_install_graphify_auto_publish_repository_root",
-      "target": "scripts_install_graphify_auto_publish_py_path",
-      "confidence_score": 1.0
+      "target": "scripts_install_graphify_auto_publish_py_path"
     },
     {
       "relation": "references",
@@ -4828,9 +4847,9 @@
       "source_file": "scripts/install_graphify_auto_publish.py",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_install_graphify_auto_publish_hook_path",
-      "target": "scripts_install_graphify_auto_publish_py_path",
-      "confidence_score": 1.0
+      "target": "scripts_install_graphify_auto_publish_py_path"
     },
     {
       "relation": "references",
@@ -4839,9 +4858,9 @@
       "source_file": "scripts/install_graphify_auto_publish.py",
       "source_location": "L60",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_install_graphify_auto_publish_patch_hook",
-      "target": "scripts_install_graphify_auto_publish_py_path",
-      "confidence_score": 1.0
+      "target": "scripts_install_graphify_auto_publish_py_path"
     },
     {
       "relation": "calls",
@@ -4850,9 +4869,9 @@
       "source_file": "scripts/install_graphify_auto_publish.py",
       "source_location": "L98",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_install_graphify_auto_publish_main",
-      "target": "scripts_install_graphify_auto_publish_hook_path",
-      "confidence_score": 1.0
+      "target": "scripts_install_graphify_auto_publish_hook_path"
     },
     {
       "relation": "calls",
@@ -4861,9 +4880,9 @@
       "source_file": "scripts/install_graphify_auto_publish.py",
       "source_location": "L98",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_install_graphify_auto_publish_main",
-      "target": "scripts_install_graphify_auto_publish_patch_hook",
-      "confidence_score": 1.0
+      "target": "scripts_install_graphify_auto_publish_patch_hook"
     },
     {
       "relation": "imports",
@@ -4872,9 +4891,9 @@
       "source_file": "tests/test_graphify_auto_publish.py",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_graphify_auto_publish",
-      "target": "scripts_install_graphify_auto_publish_patch_hook",
-      "confidence_score": 1.0
+      "target": "scripts_install_graphify_auto_publish_patch_hook"
     },
     {
       "relation": "calls",
@@ -4893,9 +4912,9 @@
       "source_file": "tests/test_graphify_auto_publish.py",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_graphify_auto_publish",
-      "target": "tests_test_graphify_auto_publish_git",
-      "confidence_score": 1.0
+      "target": "tests_test_graphify_auto_publish_git"
     },
     {
       "relation": "contains",
@@ -4903,9 +4922,9 @@
       "source_file": "tests/test_graphify_auto_publish.py",
       "source_location": "L135",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_graphify_auto_publish",
-      "target": "tests_test_graphify_auto_publish_hookinstallertest",
-      "confidence_score": 1.0
+      "target": "tests_test_graphify_auto_publish_hookinstallertest"
     },
     {
       "relation": "contains",
@@ -4913,9 +4932,9 @@
       "source_file": "tests/test_graphify_auto_publish.py",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_graphify_auto_publish",
-      "target": "tests_test_graphify_auto_publish_publisherintegrationtest",
-      "confidence_score": 1.0
+      "target": "tests_test_graphify_auto_publish_publisherintegrationtest"
     },
     {
       "relation": "references",
@@ -4924,9 +4943,9 @@
       "source_file": "tests/test_graphify_auto_publish.py",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_graphify_auto_publish_git",
-      "target": "tests_test_graphify_auto_publish_py_completedprocess",
-      "confidence_score": 1.0
+      "target": "tests_test_graphify_auto_publish_py_completedprocess"
     },
     {
       "relation": "references",
@@ -4935,9 +4954,9 @@
       "source_file": "tests/test_graphify_auto_publish.py",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_graphify_auto_publish_git",
-      "target": "tests_test_graphify_auto_publish_py_path",
-      "confidence_score": 1.0
+      "target": "tests_test_graphify_auto_publish_py_path"
     },
     {
       "relation": "calls",
@@ -4946,9 +4965,9 @@
       "source_file": "tests/test_graphify_auto_publish.py",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_graphify_auto_publish_publisherintegrationtest_setup",
-      "target": "tests_test_graphify_auto_publish_git",
-      "confidence_score": 1.0
+      "target": "tests_test_graphify_auto_publish_git"
     },
     {
       "relation": "calls",
@@ -4957,9 +4976,9 @@
       "source_file": "tests/test_graphify_auto_publish.py",
       "source_location": "L76",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_graphify_auto_publish_publisherintegrationtest_test_commits_and_pushes_only_durable_outputs",
-      "target": "tests_test_graphify_auto_publish_git",
-      "confidence_score": 1.0
+      "target": "tests_test_graphify_auto_publish_git"
     },
     {
       "relation": "calls",
@@ -4968,9 +4987,9 @@
       "source_file": "tests/test_graphify_auto_publish.py",
       "source_location": "L126",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_graphify_auto_publish_publisherintegrationtest_test_refuses_manually_staged_graphify_files",
-      "target": "tests_test_graphify_auto_publish_git",
-      "confidence_score": 1.0
+      "target": "tests_test_graphify_auto_publish_git"
     },
     {
       "relation": "calls",
@@ -4979,9 +4998,9 @@
       "source_file": "tests/test_graphify_auto_publish.py",
       "source_location": "L148",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_graphify_auto_publish_hookinstallertest_test_patches_after_rebuild_and_is_idempotent",
-      "target": "tests_test_graphify_auto_publish_py_path",
-      "confidence_score": 1.0
+      "target": "tests_test_graphify_auto_publish_py_path"
     },
     {
       "relation": "calls",
@@ -4990,9 +5009,9 @@
       "source_file": "tests/test_graphify_auto_publish.py",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_graphify_auto_publish_publisherintegrationtest_setup",
-      "target": "tests_test_graphify_auto_publish_py_path",
-      "confidence_score": 1.0
+      "target": "tests_test_graphify_auto_publish_py_path"
     },
     {
       "relation": "references",
@@ -5001,9 +5020,9 @@
       "source_file": "tests/test_graphify_auto_publish.py",
       "source_location": "L58",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_graphify_auto_publish_publisherintegrationtest_run_publisher",
-      "target": "tests_test_graphify_auto_publish_py_completedprocess",
-      "confidence_score": 1.0
+      "target": "tests_test_graphify_auto_publish_py_completedprocess"
     },
     {
       "relation": "method",
@@ -5011,9 +5030,9 @@
       "source_file": "tests/test_graphify_auto_publish.py",
       "source_location": "L58",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_graphify_auto_publish_publisherintegrationtest",
-      "target": "tests_test_graphify_auto_publish_publisherintegrationtest_run_publisher",
-      "confidence_score": 1.0
+      "target": "tests_test_graphify_auto_publish_publisherintegrationtest_run_publisher"
     },
     {
       "relation": "method",
@@ -5021,9 +5040,9 @@
       "source_file": "tests/test_graphify_auto_publish.py",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_graphify_auto_publish_publisherintegrationtest",
-      "target": "tests_test_graphify_auto_publish_publisherintegrationtest_setup",
-      "confidence_score": 1.0
+      "target": "tests_test_graphify_auto_publish_publisherintegrationtest_setup"
     },
     {
       "relation": "method",
@@ -5031,9 +5050,9 @@
       "source_file": "tests/test_graphify_auto_publish.py",
       "source_location": "L68",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_graphify_auto_publish_publisherintegrationtest",
-      "target": "tests_test_graphify_auto_publish_publisherintegrationtest_test_commits_and_pushes_only_durable_outputs",
-      "confidence_score": 1.0
+      "target": "tests_test_graphify_auto_publish_publisherintegrationtest_test_commits_and_pushes_only_durable_outputs"
     },
     {
       "relation": "method",
@@ -5041,9 +5060,9 @@
       "source_file": "tests/test_graphify_auto_publish.py",
       "source_location": "L123",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_graphify_auto_publish_publisherintegrationtest",
-      "target": "tests_test_graphify_auto_publish_publisherintegrationtest_test_refuses_manually_staged_graphify_files",
-      "confidence_score": 1.0
+      "target": "tests_test_graphify_auto_publish_publisherintegrationtest_test_refuses_manually_staged_graphify_files"
     },
     {
       "relation": "calls",
@@ -5052,9 +5071,9 @@
       "source_file": "tests/test_graphify_auto_publish.py",
       "source_location": "L87",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_graphify_auto_publish_publisherintegrationtest_test_commits_and_pushes_only_durable_outputs",
-      "target": "tests_test_graphify_auto_publish_publisherintegrationtest_run_publisher",
-      "confidence_score": 1.0
+      "target": "tests_test_graphify_auto_publish_publisherintegrationtest_run_publisher"
     },
     {
       "relation": "calls",
@@ -5063,9 +5082,9 @@
       "source_file": "tests/test_graphify_auto_publish.py",
       "source_location": "L128",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_graphify_auto_publish_publisherintegrationtest_test_refuses_manually_staged_graphify_files",
-      "target": "tests_test_graphify_auto_publish_publisherintegrationtest_run_publisher",
-      "confidence_score": 1.0
+      "target": "tests_test_graphify_auto_publish_publisherintegrationtest_run_publisher"
     },
     {
       "relation": "method",
@@ -5073,9 +5092,9 @@
       "source_file": "tests/test_graphify_auto_publish.py",
       "source_location": "L146",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_graphify_auto_publish_hookinstallertest",
-      "target": "tests_test_graphify_auto_publish_hookinstallertest_test_patches_after_rebuild_and_is_idempotent",
-      "confidence_score": 1.0
+      "target": "tests_test_graphify_auto_publish_hookinstallertest_test_patches_after_rebuild_and_is_idempotent"
     },
     {
       "relation": "contains",
@@ -10936,5 +10955,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "46d890c498528c6ab947c0fcd784e5bd5e24b27d"
+  "built_at_commit": "41b4a325260157d5e7f5c4c9a15f4221fb6d9678"
 }
